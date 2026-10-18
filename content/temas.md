@@ -30,3 +30,11 @@
 - agenda-turnos — Agenda de turnos gratis para tu taller
 - verificacion — Cómo verificamos a cada profesional (CUIT/DNI + fotos) y por qué importa
 - datos-cuidados — Ves los datos del vehículo, nunca los del dueño
+- recepcion-fotos — Recibís el auto con km, combustible y fotos, y el cliente lo confirma: nadie discute después un rayón
+- presupuesto-whatsapp — Mandás el presupuesto por WhatsApp y el cliente lo aprueba con un toque
+- cobros-senas — Anotá señas y pagos, y recordale el saldo al cliente por WhatsApp
+- estado-orden — El cliente ve en qué está su auto: recibido, presupuesto, en trabajo, listo
+- numeros-taller — Cuánto facturaste, cuánto te deben y qué es lo que más hacés
+- clientes-recuperar — La app te muestra los clientes que no volvieron hace meses
+- directorio-talleres — Encontrá talleres verificados con opiniones de clientes reales (ángulo dueño)
+- aprobar-presupuesto — Para el dueño: te llega el presupuesto al celular y decidís antes de que toquen nada

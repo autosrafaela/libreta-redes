@@ -14,6 +14,11 @@ Las imágenes y videos se suben acá porque Instagram necesita una URL pública:
 - Turnos entre usuario y taller, con botón para Google Calendar.
 - Al vender: **informe para el comprador** con un link y **transferencia** del historial al nuevo dueño.
 - Profesionales: buscan la patente, cargan el trabajo en segundos con sugerencia de repuestos, le mandan el link al cliente por WhatsApp; la app les dice a qué cliente llamar cuando le toca el próximo service.
+- Órdenes de trabajo para talleres (nuevo): **recepción del vehículo** (km, combustible, qué pidió el cliente, cómo vino + fotos; el cliente lo confirma desde el celular "así nadie discute después un rayón"),
+  **presupuesto por WhatsApp** que el cliente **aprueba o rechaza con un toque**, estados Recibido → Presupuesto → En trabajo → Listo → Entregado,
+  **cobros y señas** (efectivo, transferencia, tarjeta), recordarle el saldo por WhatsApp, comprobante para el cliente (no es factura).
+- **Números del taller**: facturado, cobrado, lo que te deben, ticket promedio, lo que más hacés y **clientes para recuperar** (vinieron hace 6–18 meses y no volvieron).
+- **Perfil público y directorio** de talleres con opiniones de clientes que tuvieron un trabajo real; filtros por rubro y ciudad.
 - Precio hoy: **gratis** para usuarios y profesionales, sin tarjeta. (Plan completo opcional: no lo promocionar salvo que Maxi lo pida.)
 - Nunca inventar números de usuarios, testimonios, premios, alianzas ni descuentos. Los talleres y patentes de ejemplo son ficticios (AB 123 CD, "Taller Don Pepe").
 - Libreta y Mikiosco son proyectos distintos: nunca mezclarlos.
@@ -92,3 +97,8 @@ Pantallas del celular (390 px de ancho, página completa) de las funciones para 
 cliente-presupuesto, orden-lista-cobro, cliente-listo, taller-cobros, taller-numeros, taller-perfil, perfil-publico, directorio.
 Los datos son de prueba (nombres y patentes inventados). Se pueden usar en reels y carruseles recortando la parte que interesa
 (por ejemplo con PIL, ancho 390 escalado al teléfono del template) para mostrar la app de verdad en lugar del celular dibujado.
+Ojo: recortar siempre las cajas de link (muestran `http://127.0.0.1:8080/...`) y no presentar los montos de `taller-numeros` como datos reales
+(son de prueba: si se muestran, que se lea como ejemplo).
+
+## Hora
+El servidor está en UTC: para saber la hora de Rafaela usar `TZ=America/Argentina/Cordoba date` (UTC−3). `America/Cordoba` sin "Argentina" no la reconoce el sistema.
