@@ -77,3 +77,12 @@ No repetir un `theme` usado en los últimos 21 días. Lista de temas en `content
 Con `getAnalyticsDataByMetrics` (Instagram: alcance, reproducciones, interacciones, guardados, seguidores) de los últimos 7 días:
 escribir `content/semanas/<fecha>.md` con qué posteos funcionaron mejor y por qué, y 2–3 ajustes concretos para la semana
 (temas, ganchos, horarios). Aplicar esos ajustes en las corridas siguientes.
+
+## Guion para grabar (Maxi a cámara, uno por día)
+Maxi sube todos los días un video propio hablando a cámara (tiene buena llegada, ya lo hace). Cada corrida le deja un guion:
+- 25–40 segundos hablado (≈70–100 palabras), en primera persona, voseo, como lo diría él: es mandatario del automotor en Rafaela y creador de Libreta.
+- **Gancho** en la primera frase (pregunta o situación real: "Ayer vino uno a transferir un auto y…").
+- **Desarrollo**: un solo problema y cómo lo resuelve Libreta. Sin inventar casos con nombres, cifras ni testimonios; las anécdotas se plantean como situaciones típicas ("pasa mucho que…").
+- **Cierre**: "Entrá gratis a libretaapp.com, el link está en mi perfil".
+- Sumar: 2–3 palabras clave para poner en pantalla, lugar sugerido para grabar (taller, auto, oficina), texto para el posteo con hashtags, y hora sugerida (al menos 4 h antes o después del posteo automático).
+- Registrar en `content/guiones.json`: `{fecha, tema, gancho, guion, caption}`. Su experiencia como mandatario es el mejor ángulo: transferencias, compra de usados, papeles, VTV.
