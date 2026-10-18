@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Archivo;font-weight:800;src:url(node_modules/@fontsource/archivo/files/archivo-latin-800-normal.woff2)}
+@font-face{font-family:Archivo;font-weight:900;src:url(node_modules/@fontsource/archivo/files/archivo-latin-900-normal.woff2)}
+@font-face{font-family:Barlow;font-weight:500;src:url(node_modules/@fontsource/barlow/files/barlow-latin-500-normal.woff2)}
+@font-face{font-family:Barlow;font-weight:600;src:url(node_modules/@fontsource/barlow/files/barlow-latin-600-normal.woff2)}
+@font-face{font-family:Barlow;font-weight:700;src:url(node_modules/@fontsource/barlow/files/barlow-latin-700-normal.woff2)}
+@font-face{font-family:'JetBrains Mono';font-weight:700;src:url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-700-normal.woff2)}
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--a:oklch(0.78 0.165 70);--a-ink:oklch(0.18 0.02 60);--bg:oklch(0.17 0.008 260);--card:oklch(0.215 0.009 260);
+--card2:oklch(0.25 0.008 260);--fg:oklch(0.95 0.005 90);--mu:oklch(0.70 0.012 260);--bd:oklch(0.31 0.01 260);
+--ok:oklch(0.74 0.15 150);--bad:oklch(0.63 0.21 27);--plate:oklch(0.97 0.003 250);--plink:oklch(0.18 0.01 260);--band:oklch(0.42 0.16 262);--blue:oklch(0.62 0.16 250)}
+html,body{background:var(--bg)}
+body{width:var(--W);height:var(--H);overflow:hidden;color:var(--fg);font-family:Barlow,sans-serif;position:relative}
+.frame{position:absolute;inset:0;overflow:hidden;background:var(--bg)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(oklch(1 0 0/.035) 1px,transparent 1px),linear-gradient(90deg,oklch(1 0 0/.035) 1px,transparent 1px);background-size:54px 54px}
+.glow{position:absolute;width:1100px;height:1100px;border-radius:50%;background:radial-gradient(closest-side,oklch(0.78 0.165 70/.16),transparent);left:50%;top:38%;transform:translate(-50%,-50%)}
+.stripes{position:absolute;left:-60px;right:-60px;height:20px;background:repeating-linear-gradient(-45deg,var(--a) 0 28px,var(--bg) 28px 56px)}
+.stripes.t{top:0}.stripes.b{bottom:0}
+.content{position:absolute;inset:0;padding:var(--pad);display:flex;flex-direction:column;justify-content:center;gap:34px}
+.brand{position:absolute;left:var(--padx);top:var(--brandTop);display:flex;align-items:center;gap:18px;font:900 38px Archivo;letter-spacing:.04em}
+.brand img{width:62px;height:62px;border-radius:14px}
+.pager{position:absolute;right:var(--padx);top:calc(var(--brandTop) + 14px);font:700 26px 'JetBrains Mono';color:var(--mu)}
+.foot{position:absolute;z-index:3;padding-top:60px;background:linear-gradient(transparent,var(--bg) 55%);margin:0 calc(-1 * var(--padx));padding-left:var(--padx);padding-right:var(--padx);padding-bottom:0;left:var(--padx);right:var(--padx);bottom:var(--footBottom);display:flex;justify-content:space-between;align-items:center;font:600 30px Barlow;color:var(--mu)}
+.foot b{color:var(--a);font-weight:700}
+.kicker{display:inline-flex;align-self:flex-start;background:var(--a);color:var(--a-ink);font:900 30px Archivo;letter-spacing:.06em;text-transform:uppercase;padding:10px 20px;border-radius:10px}
+h1{font:900 var(--h1) Archivo;line-height:.98;text-transform:uppercase;letter-spacing:-.015em}
+h2{font:900 var(--h2) Archivo;line-height:1.02;text-transform:uppercase;letter-spacing:-.01em}
+.am{color:var(--a)}
+.sub{font:500 var(--subSize) Barlow;line-height:1.3;color:var(--mu)}
+.sub b,.it b{color:var(--fg);font-weight:700}
+.list{display:flex;flex-direction:column;gap:22px}
+.it{display:flex;gap:26px;align-items:flex-start;background:var(--card);border:2px solid var(--bd);border-radius:22px;padding:26px 30px}
+.it .n{flex:none;width:62px;height:62px;border-radius:14px;background:var(--a);color:var(--a-ink);font:900 34px Archivo;display:grid;place-items:center}
+.it .n.ck{background:oklch(0.74 0.15 150/.18);color:var(--ok);border:2px solid var(--ok)}
+.it .n.x{background:oklch(0.63 0.21 27/.18);color:var(--bad);border:2px solid var(--bad)}
+.it .tx{font:600 40px Barlow;line-height:1.25}
+.it .tx small{display:block;font:500 31px Barlow;color:var(--mu);margin-top:6px}
+.quote{font:900 var(--h2) Archivo;line-height:1.08;text-transform:uppercase}
+.quote:before{content:"“";display:block;color:var(--a);font-size:1.6em;line-height:.6;margin-bottom:10px}
+.by{font:600 34px Barlow;color:var(--mu)}
+/* plate */
+.plate{position:relative;display:inline-flex;align-items:center;justify-content:center;background:var(--plate);color:var(--plink);border:5px solid oklch(0.18 0.01 260/.8);border-radius:22px;font:700 var(--plateSize) 'JetBrains Mono';letter-spacing:.08em;padding:calc(var(--plateSize)*.62) calc(var(--plateSize)*.35) calc(var(--plateSize)*.12);overflow:hidden;box-shadow:0 30px 80px -20px #000}
+.plate i{position:absolute;left:0;right:0;top:0;height:calc(var(--plateSize)*.36);background:var(--band);color:#fff;font:600 calc(var(--plateSize)*.2) Barlow;letter-spacing:.35em;display:grid;place-items:center;font-style:normal;text-transform:uppercase}
+.center{align-items:center;text-align:center}
+.center .kicker{align-self:center}
+/* CTA */
+.url{font:900 var(--url) Archivo;color:var(--a);letter-spacing:-.01em}
+.pill{display:inline-flex;align-items:center;gap:12px;border:3px solid var(--ok);color:var(--ok);border-radius:999px;padding:12px 30px;font:700 34px Barlow}
+.logoBig{width:190px;height:190px;border-radius:44px;box-shadow:0 0 0 2px oklch(0.78 0.165 70/.3),0 30px 90px -20px oklch(0.78 0.165 70/.5)}
+/* phone */
+.phoneWrap{display:flex;justify-content:center}
+.phone{width:var(--pw);height:var(--ph);border-radius:64px;background:#08090b;padding:16px;box-shadow:0 0 0 3px oklch(0.35 0.01 260),0 50px 120px -30px #000,0 0 120px -40px oklch(0.78 0.165 70/.45);position:relative}
+.scr{width:100%;height:100%;border-radius:50px;background:var(--bg);overflow:hidden;position:relative;padding:74px 26px 26px;display:flex;flex-direction:column;gap:16px}
+.scr .sb{position:absolute;top:22px;left:44px;right:44px;display:flex;justify-content:space-between;font:700 22px Barlow}
+.scr .notch{position:absolute;top:16px;left:50%;transform:translateX(-50%);width:150px;height:38px;border-radius:20px;background:#08090b}
+.ah{display:flex;align-items:center;gap:12px;font:900 24px Archivo;letter-spacing:.04em;margin-bottom:4px}
+.ah img{width:38px;height:38px;border-radius:9px}
+.st{font:800 30px Archivo;text-transform:uppercase}
+.mu{color:var(--mu)}
+.c{background:var(--card);border:2px solid var(--bd);border-radius:20px;padding:18px 20px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:12px;font:600 23px Barlow}
+.row small{display:block;font:500 19px Barlow;color:var(--mu)}
+.tag{font:700 18px Barlow;padding:6px 12px;border-radius:999px;white-space:nowrap}
+.tag.ok{color:var(--ok);background:oklch(0.74 0.15 150/.14)}
+.tag.soon{color:var(--a);background:oklch(0.78 0.165 70/.16)}
+.tag.bad{color:var(--bad);background:oklch(0.63 0.21 27/.16)}
+.mini-plate{display:inline-flex;flex:none;white-space:nowrap;position:relative;background:var(--plate);color:var(--plink);border:3px solid oklch(0.18 0.01 260/.8);border-radius:10px;font:700 30px 'JetBrains Mono';letter-spacing:.08em;padding:22px 16px 4px;overflow:hidden}
+.mini-plate i{position:absolute;inset:0 0 auto;height:15px;background:var(--band);color:#fff;font:600 9px Barlow;letter-spacing:.3em;display:grid;place-items:center;font-style:normal;text-transform:uppercase}
+.btn{background:var(--a);color:var(--a-ink);font:800 24px Archivo;text-transform:uppercase;text-align:center;border-radius:14px;padding:16px}
+.input{border:2px solid var(--a);border-radius:14px;padding:14px 18px;font:700 30px 'JetBrains Mono';letter-spacing:.08em;background:var(--card)}
+.bar{height:10px;border-radius:9px;background:var(--card2);overflow:hidden;margin-top:10px}.bar>span{display:block;height:100%;background:var(--a)}
+.vt{color:var(--blue);font-weight:700}
+.notif{background:oklch(0.32 0.01 260/.92);border-radius:26px;padding:20px 22px;display:flex;gap:16px;align-items:flex-start}
+.notif img{width:52px;height:52px;border-radius:12px;flex:none}
+.notif .h{display:flex;justify-content:space-between;font:600 19px Barlow;color:var(--mu)}
+.notif .t{font:700 24px Barlow}
+.notif .d{font:500 22px Barlow;color:oklch(0.85 0.01 260)}
+.lock{position:absolute;inset:0;background:radial-gradient(ellipse at 30% 20%,oklch(0.35 0.06 260),oklch(0.14 0.01 260) 70%)}
+.clock{font:300 120px Barlow;text-align:center;margin-top:30px;position:relative}
+.date{font:600 26px Barlow;text-align:center;position:relative;margin-top:-6px}
+.phoneSlide{justify-content:flex-start;padding-top:var(--phoneTop)}
+.phoneSlide .phoneWrap{flex:1;min-height:0;align-items:flex-start}
+/* reel layers */
+.scene{position:absolute;inset:0;opacity:0}
+.prog{position:absolute;left:0;bottom:0;height:8px;background:var(--a)}
+</style></head>
+<body><div id="root"></div>
+<script>
+const LOGO = 'LOGO_SRC';
+const esc = s => String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+// *texto* = ámbar, **texto** = negrita
+const md = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\*(.+?)\*/g,'<span class="am">$1</span>').replace(/\n/g,'<br>');
+const fmtPlate = p => { p = (p||'AB123CD').toUpperCase().replace(/[^A-Z0-9]/g,''); return p.length===7 ? p.slice(0,2)+' '+p.slice(2,5)+' '+p.slice(5) : p.length===6 ? p.slice(0,3)+' '+p.slice(3) : p; };
+let D = 0; const a = (html, extra='') => `<div class="a" data-d="${(D++)*0.22}" ${extra}>${html}</div>`;
+
+function screen(s){
+  const k = s.kind, plate = fmtPlate(s.plate), veh = esc(s.vehicle || 'Volkswagen Gol Trend 2015');
+  const head = `<div class="ah"><img src="${LOGO}">LIBRETA</div>`;
+  const vhead = `<div class="c" style="display:flex;gap:18px;align-items:center"><span class="mini-plate"><i>Argentina</i>${plate}</span><div style="font:700 23px Barlow">${veh}<small class="mu" style="display:block;font:500 19px Barlow">${esc(s.km || '87.450 km')}</small></div></div>`;
+  if (k === 'vencimientos') {
+    const items = s.items || [['VTV','12/11/2026','soon','en 26 días'],['Seguro','03/02/2027','ok','al día'],['Patente','10/11/2026','soon','en 24 días'],['Licencia','22/08/2029','ok','al día'],['Matafuegos','15/01/2027','ok','al día']];
+    return head + vhead + `<div class="st">Vencimientos</div>` + items.map(i => a(`<div class="c row"><div>${esc(i[0])}<small>${esc(i[1])}</small></div><span class="tag ${i[2]}">${esc(i[3])}</span></div>`)).join('')
+      + a(`<div class="c row" style="border-color:var(--ok)"><div>¿Salgo a la ruta?</div><span class="tag ok">✓ Todo en regla</span></div>`);
+  }
+  if (k === 'historial') {
+    const items = s.items || [['14/09/2026','Lubricentro El Rápido','Cambio de aceite y filtros','86.900 km'],['02/06/2026','Gomería Ruta 34','Alineación y balanceo','81.200 km'],['18/03/2026','Taller Don Pepe','Pastillas de freno','77.640 km'],['05/11/2025','Electricidad Sur','Batería Moura 65 Ah','71.030 km']];
+    return head + vhead + `<div class="st">Historial</div>` + items.map(i => a(`<div class="c"><div class="row"><div>${esc(i[2])}<small>${esc(i[0])} · ${esc(i[3])}</small></div></div><div style="font:600 20px Barlow;margin-top:8px" class="mu">${esc(i[1])} <span class="vt">✓ verificado</span></div></div>`)).join('');
+  }
+  if (k === 'patente') {
+    return head + `<div class="st">Buscar patente</div>` + a(`<div class="input">${plate}</div>`)
+      + a(`<div class="c"><div style="font:700 26px Barlow">${veh}</div><div class="mu" style="font:500 20px Barlow;margin-top:6px">${esc(s.fuel || 'Nafta + GNC')} · ¿Coincide con el vehículo del taller?</div></div>`)
+      + a(`<div class="c"><div class="row"><div>Último trabajo<small>Cambio de aceite · 14/09/2026</small></div><span class="tag ok">86.900 km</span></div></div>`)
+      + a(`<div class="btn">+ Cargar trabajo</div>`) + a(`<div class="c row" style="border-color:var(--a)"><div>Sumá a tu cliente a Libreta<small>Le mandás el link por WhatsApp</small></div><span class="tag soon">Enviar</span></div>`);
+  }
+  if (k === 'trabajo') {
+    return head + vhead + `<div class="st">Cargar trabajo</div>`
+      + a(`<div class="c"><small class="mu" style="font:600 19px Barlow">SERVICIO</small><div style="font:700 25px Barlow;margin-top:4px">Cambio de aceite y filtros</div></div>`)
+      + a(`<div class="c"><small class="mu" style="font:600 19px Barlow">REPUESTOS</small><div style="font:600 23px Barlow;margin-top:6px">Shell Helix HX7 10W-40 · 4 L<br>Filtro de aceite Fram PH5949<br>Filtro de aire Fram CA9601</div></div>`)
+      + a(`<div class="c row"><div>Km actuales<small>solo van para adelante</small></div><span class="tag soon">87.450 km</span></div>`)
+      + a(`<div class="c row"><div>Próximo service<small>te avisamos a vos y al cliente</small></div><span class="tag ok">97.450 km</span></div>`) + a(`<div class="btn">Guardar trabajo</div>`);
+  }
+  if (k === 'mantenimiento') {
+    const items = s.items || [['Aceite y filtros','le toca ahora',100,'bad'],['Alineación y balanceo','en 2.300 km',78,'soon'],['Rotar cubiertas','en 4.100 km',55,'ok'],['Correa de distribución','en 23.000 km',40,'ok'],['Batería','en 14 meses',35,'ok']];
+    return head + vhead + `<div class="st">Mantenimiento</div>` + items.map(i => a(`<div class="c"><div class="row"><div>${esc(i[0])}</div><span class="tag ${i[3]}">${esc(i[1])}</span></div><div class="bar"><span style="width:${i[2]}%;${i[3]==='bad'?'background:var(--bad)':i[3]==='ok'?'background:var(--ok)':''}"></span></div></div>`)).join('');
+  }
+  if (k === 'informe') {
+    const items = s.items || ['12 trabajos cargados por talleres','Km verificados: siempre para adelante','VTV y patente al día','Último service hace 30 días'];
+    return head + `<div class="st">Informe para el comprador</div>` + vhead + items.map(i => a(`<div class="c row"><div>${esc(i)}</div><span class="tag ok">✓</span></div>`)).join('')
+      + a(`<div class="c" style="border-color:var(--a)"><div style="font:700 23px Barlow">Cada trabajo con la firma del taller</div><div class="mu" style="font:500 20px Barlow;margin-top:4px">Nadie lo puede borrar ni editar</div></div>`);
+  }
+  if (k === 'turno') {
+    return head + `<div class="st">Mis turnos</div>` + a(`<div class="c"><div class="row"><div>Martes 21 de octubre · 9:00<small>Lubricentro El Rápido</small></div><span class="tag ok">Confirmado</span></div><div class="mu" style="font:500 20px Barlow;margin-top:8px">Cambio de aceite · ${plate}</div></div>`)
+      + a(`<div class="c row"><div>Agregar a Google Calendar</div><span class="tag soon">+</span></div>`)
+      + a(`<div class="c"><div class="row"><div>Jueves 6 de noviembre · 16:30<small>Gomería Ruta 34</small></div><span class="tag soon">Pedido</span></div></div>`);
+  }
+  if (k === 'aviso') {
+    const n = s.items || [['Tu VTV vence en 7 días',`${plate} · Sacá turno antes del 12/11`],['Le toca el cambio de aceite',`${plate} · van ~10.000 km del último`],['Lubricentro El Rápido cargó un trabajo','Cambio de aceite y filtros · 87.450 km']];
+    return `<div class="lock"></div><div class="clock">9:41</div><div class="date">martes 21 de octubre</div><div style="height:40px"></div>`
+      + n.map(i => a(`<div class="notif" style="position:relative"><img src="${LOGO}"><div style="flex:1"><div class="h"><span>LIBRETA</span><span>ahora</span></div><div class="t">${esc(i[0])}</div><div class="d">${esc(i[1])}</div></div></div>`)).join('');
+  }
+  return head;
+}
+
+function slide(s, i, n, mode){
+  D = 0;
+  let body = '';
+  const kick = s.kicker ? a(`<span class="kicker">${md(s.kicker)}</span>`, 'style="display:flex"') : '';
+  if (s.type === 'hook') body = `<div class="content">${kick}${a(`<h1>${md(s.title)}</h1>`)}${s.sub ? a(`<p class="sub">${md(s.sub)}</p>`) : ''}${s.plate ? a(`<div><span class="plate"><i>Argentina</i>${fmtPlate(s.plate)}</span></div>`) : ''}</div>`;
+  else if (s.type === 'list') body = `<div class="content">${kick}${a(`<h2>${md(s.title)}</h2>`)}<div class="list">${(s.items||[]).map((it,j) => a(`<div class="it"><div class="n ${s.mark==='check'?'ck':s.mark==='x'?'x':''}">${s.mark==='check'?'✓':s.mark==='x'?'✕':j+1}</div><div class="tx">${md(it.t ?? it)}${it.d ? `<small>${md(it.d)}</small>` : ''}</div></div>`)).join('')}</div></div>`;
+  else if (s.type === 'phone') body = `<div class="content phoneSlide" style="gap:26px">${s.title ? a(`<h2 style="font-size:var(--h2s)">${md(s.title)}</h2>`) : ''}${s.sub ? a(`<p class="sub">${md(s.sub)}</p>`) : ''}<div class="phoneWrap a" data-d="0.1"><div class="phone"><div class="scr"><div class="notch"></div><div class="sb"><span>9:41</span><span>● ● ●</span></div>${screen(s.screen||{})}</div></div></div></div>`;
+  else if (s.type === 'plate') body = `<div class="content center">${kick}${a(`<span class="plate"><i>Argentina</i>${fmtPlate(s.plate)}</span>`)}${a(`<h2>${md(s.title)}</h2>`)}${s.sub ? a(`<p class="sub">${md(s.sub)}</p>`) : ''}</div>`;
+  else if (s.type === 'quote') body = `<div class="content">${a(`<div class="quote">${md(s.text)}</div>`)}${s.by ? a(`<div class="by">${md(s.by)}</div>`) : ''}</div>`;
+  else if (s.type === 'cta') body = `<div class="content center">${a(`<img class="logoBig" src="${LOGO}">`)}${a(`<h2>${md(s.title || 'Empezá *hoy*')}</h2>`)}${a(`<div class="url">libretaapp.com</div>`)}${a(`<span class="pill">✓ ${md(s.pill || 'Gratis · sin tarjeta')}</span>`)}${s.sub ? a(`<p class="sub">${md(s.sub)}</p>`) : ''}</div>`;
+  const pager = mode === 'carousel' && n > 1 ? `<div class="pager">${i+1}/${n}</div>` : '';
+  const foot = mode === 'reel' ? '' : `<div class="foot"><span><b>libretaapp.com</b></span><span>${mode==='carousel' && i < n-1 ? 'Deslizá →' : ''}</span></div>`;
+  const brand = s.type === 'cta' || s.type === 'phone' && mode === 'reel' ? '' : `<div class="brand"><img src="${LOGO}">LIBRETA</div>`;
+  return `<div class="frame"><div class="grid"></div><div class="glow"></div><div class="stripes t"></div><div class="stripes b"></div>${brand}${pager}${body}${foot}</div>`;
+}
+
+function setup(spec, mode, W, H){
+  const reel = mode === 'reel';
+  const r = document.documentElement.style;
+  const v = reel
+    ? {W:'1080px',H:'1920px',pad:'230px 80px 300px',padx:'80px',brandTop:'120px',footBottom:'110px',h1:'124px',h2:'92px',h2s:'70px',subSize:'44px',plateSize:'120px',url:'96px',pw:'640px',ph:'1220px',phoneTop:'230px'}
+    : {W:'1080px',H:'1350px',pad:'160px 80px 140px',padx:'80px',brandTop:'70px',footBottom:'58px',h1:'104px',h2:'78px',h2s:'50px',subSize:'38px',plateSize:'104px',url:'84px',pw:'560px',ph:'1100px',phoneTop:'180px'};
+  for (const k in v) r.setProperty('--'+k, v[k]);
+  window.spec = spec; window.mode = mode;
+}
+function showSlide(i){
+  const list = window.spec.slides; document.getElementById('root').innerHTML = slide(list[i], i, list.length, window.mode);
+  document.querySelectorAll('.a').forEach(e => { e.style.opacity = 1; });
+}
+// --- reel ---
+function buildReel(){
+  const sc = window.spec.scenes; let t = 0;
+  document.getElementById('root').innerHTML = sc.map((s,i) => { const h = `<div class="scene" id="s${i}" data-t0="${t}" data-t1="${t+s.dur}">${slide(s,i,sc.length,'reel')}</div>`; t += s.dur; return h; }).join('') + '<div class="prog" id="prog"></div>';
+  window.total = t; return t;
+}
+const ease = x => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
+function setTime(t){
+  document.querySelectorAll('.scene').forEach(el => {
+    const t0 = +el.dataset.t0, t1 = +el.dataset.t1;
+    const on = t >= t0 - 0.0001 && t < t1;
+    const fadeOut = t1 - t < 0.25 ? (t1 - t) / 0.25 : 1;
+    el.style.opacity = on ? fadeOut : 0;
+    if (!on) return;
+    const lt = t - t0;
+    el.querySelectorAll('.a').forEach(e => { const p = ease((lt - 0.15 - +e.dataset.d) / 0.45); e.style.opacity = p; e.style.transform = `translateY(${(1-p)*50}px) scale(${0.96+0.04*p})`; });
+    const k = el.querySelector('.kicker'); if (k) { const p = ease((lt-0.1)/0.3); k.style.transform = `scale(${0.7+0.3*p})`; }
+  });
+  document.getElementById('prog').style.width = (t / window.total * 100) + '%';
+}
+</script></body></html>

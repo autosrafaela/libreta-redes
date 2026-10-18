@@ -1,0 +1,2 @@
+{ "name": "libreta-redes-tools", "private": true, "type": "module",
+  "dependencies": { "playwright-core": "1.56.1", "@fontsource/archivo": "^5", "@fontsource/barlow": "^5", "@fontsource/jetbrains-mono": "^5" } }

@@ -1,0 +1,13 @@
+{
+  "id": "2026-10-18",
+  "theme": "historial-al-vender",
+  "format": "carousel",
+  "slides": [
+    {"type": "hook", "kicker": "¿Vendés tu auto?", "title": "El que compra no le cree al *vendedor*.", "sub": "Le cree al **historial**.", "plate": "AB123CD"},
+    {"type": "list", "mark": "x", "title": "Lo que dice *todo* vendedor", "items": [{"t": "“Siempre lo llevé al mecánico”"}, {"t": "“Tiene los km reales”"}, {"t": "“El aceite se lo cambié hace poco”"}]},
+    {"type": "quote", "text": "Y el comprador piensa: *¿y quién me lo asegura?*"},
+    {"type": "phone", "title": "Con Libreta, *lo cargan los talleres*", "sub": "Cada trabajo queda guardado por patente, con la firma del taller.", "screen": {"kind": "historial"}},
+    {"type": "list", "mark": "check", "title": "Por qué *vale*", "items": [{"t": "Lo carga el profesional", "d": "Vos no podés inventar trabajos"}, {"t": "Nadie lo borra ni lo edita", "d": "Y los km solo van para adelante"}, {"t": "Pasa al nuevo dueño", "d": "El historial queda con la patente"}]},
+    {"type": "cta", "title": "Empezá el historial *hoy*", "sub": "Pedile a tu mecánico que cargue el próximo trabajo."}
+  ]
+}

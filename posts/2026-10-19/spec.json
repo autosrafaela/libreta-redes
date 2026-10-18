@@ -1,0 +1,63 @@
+{
+  "id": "2026-10-19",
+  "theme": "vencimientos",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 2.6,
+      "kicker": "Rápido:",
+      "title": "¿Cuándo vence tu *VTV*?",
+      "say": "Rápido. ¿Cuándo vence tu VTV?"
+    },
+    {
+      "type": "hook",
+      "dur": 2.4,
+      "title": "¿Y el *seguro*?\n¿Y la *patente*?",
+      "sub": "Si dudaste, no sos el único.",
+      "say": "¿Y el seguro? ¿Y la patente? Si dudaste, no sos el único."
+    },
+    {
+      "type": "phone",
+      "dur": 4.2,
+      "title": "Libreta se acuerda *por vos*",
+      "screen": {
+        "kind": "vencimientos"
+      },
+      "say": "Libreta se acuerda por vos: todos los vencimientos de tu auto o moto, en un solo lugar."
+    },
+    {
+      "type": "phone",
+      "dur": 3.8,
+      "title": "Te avisa *antes* al celular",
+      "screen": {
+        "kind": "aviso"
+      },
+      "say": "Y te avisa al celular antes de que se venzan."
+    },
+    {
+      "type": "list",
+      "dur": 4.2,
+      "mark": "check",
+      "title": "Todo *en un solo lugar*",
+      "items": [
+        {
+          "t": "VTV, seguro, patente y licencia"
+        },
+        {
+          "t": "Matafuegos, balizas y botiquín"
+        },
+        {
+          "t": "Cuándo toca el aceite"
+        }
+      ],
+      "say": "VTV, seguro, patente, licencia, matafuegos, y hasta cuándo te toca cambiar el aceite."
+    },
+    {
+      "type": "cta",
+      "dur": 3.4,
+      "title": "Que no te *agarre la multa*",
+      "say": "Que no te agarre la multa. Entrá a libretaapp.com. Es gratis."
+    }
+  ]
+}
