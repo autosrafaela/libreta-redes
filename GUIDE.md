@@ -86,3 +86,9 @@ Maxi sube todos los días un video propio hablando a cámara (tiene buena llegad
 - **Cierre**: "Entrá gratis a libretaapp.com, el link está en mi perfil".
 - Sumar: 2–3 palabras clave para poner en pantalla, lugar sugerido para grabar (taller, auto, oficina), texto para el posteo con hashtags, y hora sugerida (al menos 4 h antes o después del posteo automático).
 - Registrar en `content/guiones.json`: `{fecha, tema, gancho, guion, caption}`. Su experiencia como mandatario es el mejor ángulo: transferencias, compra de usados, papeles, VTV.
+
+## Capturas reales de la app (`assets/app/`)
+Pantallas del celular (390 px de ancho, página completa) de las funciones para talleres: recepcion-form, presupuesto-enviado,
+cliente-presupuesto, orden-lista-cobro, cliente-listo, taller-cobros, taller-numeros, taller-perfil, perfil-publico, directorio.
+Los datos son de prueba (nombres y patentes inventados). Se pueden usar en reels y carruseles recortando la parte que interesa
+(por ejemplo con PIL, ancho 390 escalado al teléfono del template) para mostrar la app de verdad en lugar del celular dibujado.
