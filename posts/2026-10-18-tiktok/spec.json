@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-18-tiktok",
+  "theme": "historial-al-vender",
+  "format": "reel",
+  "scenes": [
+    {"type": "hook", "dur": 2.6, "kicker": "¿Vendés tu auto?", "title": "El que compra no le cree al *vendedor*.", "sub": "Le cree al **historial**.", "plate": "AB123CD",
+     "say": "¿Vendés tu auto? El que compra no le cree al vendedor. Le cree al historial."},
+    {"type": "list", "dur": 4, "mark": "x", "title": "Lo que dice *todo* vendedor", "items": [{"t": "“Siempre lo llevé al mecánico”"}, {"t": "“Tiene los km reales”"}, {"t": "“El aceite se lo cambié hace poco”"}],
+     "say": "Todo vendedor dice lo mismo: siempre lo llevé al mecánico, tiene los kilómetros reales, el aceite se lo cambié hace poco."},
+    {"type": "quote", "dur": 2.6, "text": "Y el comprador piensa: *¿y quién me lo asegura?*",
+     "say": "Y el comprador piensa: ¿y quién me lo asegura?"},
+    {"type": "phone", "dur": 4, "title": "Con Libreta, *lo cargan los talleres*", "sub": "Cada trabajo queda guardado por patente, con la firma del taller.", "screen": {"kind": "historial"},
+     "say": "Con Libreta, cada trabajo lo carga el taller, y queda guardado por patente con su firma."},
+    {"type": "list", "dur": 4.5, "mark": "check", "title": "Por qué *vale*", "items": [{"t": "Lo carga el profesional", "d": "Vos no podés inventar trabajos"}, {"t": "Nadie lo borra ni lo edita", "d": "Y los km solo van para adelante"}, {"t": "Pasa al nuevo dueño", "d": "El historial queda con la patente"}],
+     "say": "Nadie lo puede borrar ni editar, los kilómetros solo van para adelante, y cuando vendés, el historial pasa al nuevo dueño."},
+    {"type": "cta", "dur": 3.5, "title": "Empezá el historial *hoy*", "sub": "Pedile a tu mecánico que cargue el próximo trabajo.",
+     "say": "Empezá el historial hoy. Entrá gratis a libretaapp punto com."}
+  ]
+}
