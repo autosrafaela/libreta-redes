@@ -23,6 +23,12 @@ Las imágenes y videos se suben acá porque Instagram necesita una URL pública:
 - Español rioplatense con voseo, directo, cero tecnicismos. Frases cortas. Nada de "revolucionario" ni "potenciá".
 - Alternar ángulos: dueño (vencimientos, multas, vender mejor, mantenimiento) ~70% y profesionales/talleres ~30%.
 
+## Antes de publicar: revisar
+Mirar SIEMPRE las láminas (o 4–5 fotogramas del reel con ffmpeg) con la herramienta de lectura de imágenes: texto que no se corta ni se superpone, nada fuera de la pantalla, sin errores de ortografía. Si algo falla, corregir el spec y volver a generar.
+
+## Preparar la sesión
+`sh tools/setup.sh` (instala dependencias). Generar con `node tools/render.mjs posts/<id>/spec.json`. La primera vez descarga la voz (~115 MB) sola.
+
 ## Rotación de formatos
 Seguir el ciclo por número de posteo (ver `content/log.json`): **reel, carrusel, reel, imagen, carrusel, reel, carrusel**.
 - **Reel** (1080×1920, 18–35 s, 5–8 escenas): SIEMPRE con voz en off. Cada escena lleva `say` (lo que dice la voz, 1 o 2 frases cortas);
@@ -55,7 +61,7 @@ Títulos: máximo ~7 palabras. Si un título queda en más de 4 renglones, acort
 
 ## Publicar en Metricool
 - blogId `7490896`, zona `America/Cordoba`. Proveedores: instagram, facebook, tiktok.
-- Horario: `getBestTimeToPostByNetwork` (instagram) para hoy; elegir la mejor hora que esté al menos 40 min en el futuro (si no queda ninguna hoy, 20:00).
+- Horario: `getBestTimeToPostByNetwork` (instagram) para hoy; elegir la mejor hora que esté al menos 40 min en el futuro (si Metricool todavía no tiene datos —todos los valores en 0— usar 20:12 de lunes a viernes y 18:52 sábados y domingos; si ya pasó, la próxima hora con al menos 40 min de margen, nunca después de las 22:30).
 - Reel: instagramData.type `REEL` (showReelOnFeed true), facebookData.type `REEL`, video `reel.mp4`, `videoThumbnailUrl` = `cover.jpg`.
   Marcar `isAiGenerated: true` (Instagram) e `isAigc: true` (TikTok) porque la voz es sintética.
 - Carrusel/imagen: instagramData.type `POST`, facebookData.type `POST`, media = las láminas en orden; tiktokData con `title` y `autoAddMusic: true`.
@@ -63,6 +69,7 @@ Títulos: máximo ~7 palabras. Si un título queda en más de 4 renglones, acort
 - Si Metricool rechaza una red (por ejemplo TikTok), volver a programar sin esa red y anotarlo en el log.
 
 ## Registro
+Agregar una entrada a `content/log.json` y hacer commit + push de todo (spec, imágenes/video, log) a `main` ANTES de programar en Metricool (las URLs tienen que existir). Metricool copia los archivos a su servidor al programar.
 Agregar una entrada a `content/log.json` por posteo: `{id, theme, format, hook, scheduled_at, networks, planner_url, notes}`.
 No repetir un `theme` usado en los últimos 21 días. Lista de temas en `content/temas.md` (se puede ampliar).
 
