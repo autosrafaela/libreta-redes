@@ -102,3 +102,6 @@ Ojo: recortar siempre las cajas de link (muestran `http://127.0.0.1:8080/...`) y
 
 ## Hora
 El servidor está en UTC: para saber la hora de Rafaela usar `TZ=America/Argentina/Cordoba date` (UTC−3). `America/Cordoba` sin "Argentina" no la reconoce el sistema.
+
+## Videos que graba Maxi
+Cuando Maxi manda un video crudo: fondo neón + edición con gancho, cortes, subtítulos y cierre. Ver `tools/video-maxi/README.md`. No generar videos con su cara o voz sintética.
