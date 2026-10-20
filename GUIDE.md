@@ -54,7 +54,7 @@ Tipos de lámina/escena (en textos: `*palabra*` = ámbar, `**palabra**` = negrit
 - `quote` {text, by?}
 - `plate` {plate, title, sub?, kicker?}
 - `phone` {title?, sub?, screen: {kind, plate?, vehicle?, km?, items?}} — kinds: `vencimientos`, `historial`, `patente`, `trabajo`,
-  `mantenimiento`, `informe`, `turno`, `aviso` (notificaciones en pantalla bloqueada). Sin `items` usa datos de ejemplo coherentes.
+  `mantenimiento`, `informe`, `turno`, `aviso` (notificaciones en pantalla bloqueada), `captura` ({src: ruta desde la raíz del repo a una captura real de 390 px de ancho, top?: px donde empieza}). Sin `items` usa datos de ejemplo coherentes.
 - `cta` {title?, sub?, pill?}
 Títulos: máximo ~7 palabras. Si un título queda en más de 4 renglones, acortarlo.
 
@@ -67,7 +67,7 @@ Títulos: máximo ~7 palabras. Si un título queda en más de 4 renglones, acort
 ## Publicar en Metricool
 - blogId `7490896`, zona `America/Cordoba`. Proveedores: instagram, facebook, tiktok.
 - Horario: `getBestTimeToPostByNetwork` (instagram) para hoy; elegir la mejor hora que esté al menos 40 min en el futuro (si Metricool todavía no tiene datos —todos los valores en 0— usar 20:12 de lunes a viernes y 18:52 sábados y domingos; si ya pasó, la próxima hora con al menos 40 min de margen, nunca después de las 22:30).
-- Reel: instagramData.type `REEL` (showReelOnFeed true), facebookData.type `REEL`, video `reel.mp4`, `videoThumbnailUrl` = `cover.jpg`.
+- Reel: instagramData.type `REEL` (showReelOnFeed true), facebookData.type `REEL`, video `reel.mp4`, `videoThumbnailUrl` = `cover.jpg`. TikTok exige `tiktokData.title` también en reels (texto corto + 3 hashtags).
   Marcar `isAiGenerated: true` (Instagram) e `isAigc: true` (TikTok) porque la voz es sintética.
 - Carrusel/imagen: instagramData.type `POST`, facebookData.type `POST`, media = las láminas en orden; tiktokData con `title` y `autoAddMusic: true`.
 - autoPublish true, draft false. Antes de programar, revisar con `getScheduledPosts` que no haya ya un posteo de Libreta ese día (no duplicar).
