@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-20",
+  "theme": "clientes-recuperar",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 2.6,
+      "kicker": "Talleres:",
+      "title": "¿Cuántos clientes *no volvieron* más?",
+      "say": "Che, taller: ¿cuántos clientes atendiste que nunca más volvieron?"
+    },
+    {
+      "type": "hook",
+      "dur": 2.6,
+      "title": "No se fueron.\nSe *olvidaron*.",
+      "sub": "Y el service le tocaba hace rato.",
+      "say": "Muchas veces no se fueron a otro lado. Se olvidaron, y el service le tocaba hace rato."
+    },
+    {
+      "type": "phone",
+      "dur": 4.4,
+      "title": "Libreta te los *muestra*",
+      "screen": {
+        "kind": "captura",
+        "src": "posts/2026-10-20/captura-clientes.png",
+        "top": 0
+      },
+      "say": "Libreta te muestra los clientes que vinieron hace seis a dieciocho meses y no volvieron."
+    },
+    {
+      "type": "list",
+      "dur": 4.2,
+      "mark": "num",
+      "title": "Y te dice *a quién llamar*",
+      "items": [
+        {
+          "t": "A quién le toca el service"
+        },
+        {
+          "t": "Le mandás un WhatsApp"
+        },
+        {
+          "t": "Lo tenés *de vuelta*"
+        }
+      ],
+      "say": "Te avisa a qué cliente le toca el próximo service. Le mandás un WhatsApp a tiempo, y lo tenés de vuelta."
+    },
+    {
+      "type": "list",
+      "dur": 4.2,
+      "mark": "check",
+      "title": "Y es *gratis*",
+      "items": [
+        {
+          "t": "Historial por patente"
+        },
+        {
+          "t": "Órdenes y presupuestos por WhatsApp"
+        },
+        {
+          "t": "Clientes para recuperar"
+        }
+      ],
+      "say": "Y es gratis: historial por patente, órdenes, presupuestos por WhatsApp y clientes para recuperar."
+    },
+    {
+      "type": "cta",
+      "dur": 3.4,
+      "title": "Que tus clientes *vuelvan*",
+      "say": "Que tus clientes vuelvan. Registrá tu taller gratis en libretaapp.com."
+    }
+  ]
+}

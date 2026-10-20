@@ -140,6 +140,10 @@ function screen(s){
     return `<div class="lock"></div><div class="clock">9:41</div><div class="date">martes 21 de octubre</div><div style="height:40px"></div>`
       + n.map(i => a(`<div class="notif" style="position:relative"><img src="${LOGO}"><div style="flex:1"><div class="h"><span>LIBRETA</span><span>ahora</span></div><div class="t">${esc(i[0])}</div><div class="d">${esc(i[1])}</div></div></div>`)).join('');
   }
+  if (k === 'captura') {
+    // captura real (ruta desde la raíz del repo, 390 px de ancho); top = px de la captura donde empieza el recorte
+    return `<div style="margin:-20px -26px -26px;flex:1;min-height:0;overflow:hidden">${a(`<img src="../${esc(s.src)}" style="width:100%;display:block;margin-top:${-(s.top||0)/390*100}%">`)}</div>`;
+  }
   return head;
 }
 
