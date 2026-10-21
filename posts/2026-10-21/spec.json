@@ -1,0 +1,13 @@
+{
+  "id": "2026-10-21",
+  "theme": "kit-ruta",
+  "format": "image",
+  "slides": [
+    {"type": "list", "kicker": "Antes de salir a la ruta", "mark": "check", "title": "¿Tenés *todo* en el baúl?", "items": [
+      {"t": "Balizas y chaleco", "d": "Te los pueden pedir en un control"},
+      {"t": "Matafuegos con carga vigente", "d": "Libreta te avisa antes de que venza"},
+      {"t": "Botiquín y rueda de auxilio", "d": "Con gato y llave"},
+      {"t": "Papeles al día", "d": "Licencia, seguro, cédula y VTV"}
+    ]}
+  ]
+}
