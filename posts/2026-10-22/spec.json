@@ -1,0 +1,13 @@
+{
+  "id": "2026-10-22",
+  "theme": "aprobar-presupuesto",
+  "format": "carousel",
+  "slides": [
+    {"type": "hook", "kicker": "Te pasó seguro", "title": "Fuiste a buscar el auto y la cuenta era *otra*.", "sub": "“Ya que estaba, le cambié…”"},
+    {"type": "list", "mark": "x", "title": "Lo de *siempre*", "items": [{"t": "Te pasan el precio de palabra"}, {"t": "Le agregan cosas sin avisar"}, {"t": "Y después: ¿quién se acuerda qué dijeron?"}]},
+    {"type": "phone", "title": "Con Libreta, el presupuesto *llega a tu celu*", "sub": "Con el detalle: repuestos y mano de obra.", "screen": {"kind": "captura", "src": "posts/2026-10-22/captura-presupuesto.png", "top": 0}},
+    {"type": "list", "mark": "check", "title": "Vos *decidís*", "items": [{"t": "Aprobás o rechazás con un toque", "d": "Antes de que toquen nada"}, {"t": "Podés preguntar lo que no entiendas", "d": "Ahí mismo, en el presupuesto"}, {"t": "Ves en qué está tu auto", "d": "Recibido, en trabajo, listo"}]},
+    {"type": "quote", "text": "Sin sorpresas *a la hora de pagar*."},
+    {"type": "cta", "title": "Pedile a tu taller que use *Libreta*", "sub": "Es gratis para vos y para el taller."}
+  ]
+}
