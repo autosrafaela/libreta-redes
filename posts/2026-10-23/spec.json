@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-23",
+  "theme": "tu-mecanico",
+  "format": "reel",
+  "scenes": [
+    {"type": "hook", "dur": 2.6, "title": "¿Tu mecánico anota en un *papelito*?",
+     "say": "¿Tu mecánico te anota los services en un papelito?"},
+    {"type": "hook", "dur": 2.8, "title": "El papelito\nse *pierde*.", "sub": "Y con él, la historia de tu auto.",
+     "say": "El papelito se pierde. Y con él, la historia de tu auto."},
+    {"type": "phone", "dur": 4.2, "title": "Que lo cargue en *Libreta*", "screen": {"kind": "trabajo"},
+     "say": "Pedile que lo cargue en Libreta: busca tu patente y carga el trabajo en segundos."},
+    {"type": "phone", "dur": 4.2, "title": "Queda *por patente*", "sub": "No se borra ni se edita", "screen": {"kind": "historial"},
+     "say": "Queda guardado por patente, con fecha y kilómetros. No se borra ni se edita."},
+    {"type": "list", "dur": 4.4, "mark": "check", "title": "Y vos *ganás*",
+     "items": [{"t": "Te avisa el próximo service"}, {"t": "Ves todo lo que le hicieron"}, {"t": "Vendés *con historial*"}],
+     "say": "Y vos ganás: te avisa el próximo service, ves todo lo que le hicieron, y cuando vendas, tenés el historial."},
+    {"type": "hook", "dur": 2.8, "title": "Gratis para *los dos*", "sub": "Para vos y para tu mecánico. Sin tarjeta.",
+     "say": "Y es gratis para los dos. Sin tarjeta."},
+    {"type": "cta", "dur": 3.6, "title": "Pasale el dato a *tu mecánico*",
+     "say": "Pasale el dato a tu mecánico. Entrá gratis a libretaapp.com."}
+  ]
+}

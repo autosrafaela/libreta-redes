@@ -25,8 +25,10 @@ function findChrome() {
   if (process.env.CHROME_PATH) return process.env.CHROME_PATH;
   const base = "/opt/pw-browsers";
   for (const d of readdirSync(base).filter((d) => d.startsWith("chromium-")).sort().reverse()) {
-    const p = join(base, d, "chrome-linux", "chrome");
-    if (existsSync(p)) return p;
+    for (const sub of ["chrome-linux", "chrome-linux64"]) {
+      const p = join(base, d, sub, "chrome");
+      if (existsSync(p)) return p;
+    }
   }
   throw new Error("No encontré Chromium");
 }
