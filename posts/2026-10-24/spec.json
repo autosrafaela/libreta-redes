@@ -1,0 +1,70 @@
+{
+  "id": "2026-10-24",
+  "theme": "recepcion-fotos",
+  "format": "carousel",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "Para talleres",
+      "title": "“Ese rayón *no estaba* cuando lo traje”",
+      "sub": "¿Te suena?"
+    },
+    {
+      "type": "list",
+      "mark": "x",
+      "title": "Lo de *siempre*",
+      "items": [
+        {
+          "t": "Recibís el auto de apuro"
+        },
+        {
+          "t": "Nadie anota los km ni el combustible"
+        },
+        {
+          "t": "Y después es tu palabra contra la suya"
+        }
+      ]
+    },
+    {
+      "type": "phone",
+      "title": "Recibilo con *Libreta*",
+      "sub": "Km, combustible y qué pidió el cliente.",
+      "screen": {
+        "kind": "captura",
+        "src": "posts/2026-10-24/captura-recepcion.png",
+        "top": 0
+      }
+    },
+    {
+      "type": "phone",
+      "title": "Anotá cómo vino y *sacale fotos*",
+      "sub": "Y le mandás la orden por WhatsApp.",
+      "screen": {
+        "kind": "captura",
+        "src": "posts/2026-10-24/captura-fotos.png",
+        "top": 0
+      }
+    },
+    {
+      "type": "list",
+      "mark": "check",
+      "title": "El cliente lo *confirma*",
+      "items": [
+        {
+          "t": "Lo ve desde su celular"
+        },
+        {
+          "t": "Queda por escrito, con fotos"
+        },
+        {
+          "t": "Nadie discute *después un rayón*"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Probalo en *tu taller*",
+      "sub": "Recibí cada auto con fotos y sin discusiones."
+    }
+  ]
+}
