@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-25",
+  "theme": "comprar-usado",
+  "format": "reel",
+  "scenes": [
+    {"type": "hook", "dur": 2.6, "title": "¿Vas a comprar un *usado*?",
+     "say": "¿Vas a comprar un usado? Pará un segundo."},
+    {"type": "quote", "dur": 3.2, "text": "“Está impecable, siempre lo llevé al mecánico”", "by": "Todos los vendedores",
+     "say": "Todos te van a decir lo mismo: está impecable, siempre lo llevé al mecánico."},
+    {"type": "list", "dur": 5.4, "mark": "num", "kicker": "Antes de señar", "title": "Pedí estas *3 cosas*",
+     "items": [{"t": "Informe de dominio", "d": "Deudas y prendas"}, {"t": "Revisión de tu mecánico"}, {"t": "El *historial* del auto"}],
+     "say": "Antes de señar, pedí tres cosas: el informe de dominio, que lo revise tu mecánico, y el historial del auto."},
+    {"type": "phone", "dur": 4.4, "title": "El historial, *en un link*", "screen": {"kind": "informe"},
+     "say": "Con Libreta, el vendedor te manda el historial en un link y lo mirás desde el celular."},
+    {"type": "phone", "dur": 4.4, "title": "Lo cargan *los talleres*", "sub": "No se borra. Los km solo van para adelante.", "screen": {"kind": "historial"},
+     "say": "Cada trabajo lo cargó un taller, con fecha y kilómetros. No se borra, y los kilómetros solo van para adelante."},
+    {"type": "hook", "dur": 2.8, "title": "Comprás *tranquilo*", "sub": "Y es gratis. Sin tarjeta.",
+     "say": "Así comprás tranquilo. Y es gratis."},
+    {"type": "cta", "dur": 3.4, "title": "Pedile el *link de Libreta*",
+     "say": "Pedile el link de Libreta al vendedor. Entrá gratis a libretaapp.com."}
+  ]
+}
