@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-26",
+  "theme": "aceite-cuando",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "Para tu auto o tu moto", "title": "El sticker del aceite *ya no se lee*", "sub": "¿Y ahora cuándo te toca?" },
+    { "type": "list", "mark": "x", "title": "Lo de *siempre*", "items": [
+      { "t": "El papelito del parabrisas se despega" },
+      { "t": "No te acordás si fue en marzo o en mayo" },
+      { "t": "Y el próximo service, *a ojo*" } ] },
+    { "type": "list", "mark": "num", "title": "¿Cada cuánto *se cambia*?", "items": [
+      { "t": "Lo que diga el manual", "d": "Cada motor y cada aceite es distinto" },
+      { "t": "Por km o por tiempo", "d": "Lo que llegue primero" },
+      { "t": "Si dudás, preguntale a tu mecánico", "d": "Él sabe cómo usás el auto" } ] },
+    { "type": "phone", "title": "Libreta *te avisa*", "sub": "Según los km y el tiempo de tu auto.", "screen": { "kind": "aviso", "items": [
+      ["Le toca el cambio de aceite", "AB 123 CD · según los km del último service"],
+      ["Tu VTV vence en 7 días", "AB 123 CD · Sacá turno antes del 12/11"] ] } },
+    { "type": "phone", "title": "Y queda *anotado*", "sub": "Lo carga tu mecánico, con fecha y km.", "screen": { "kind": "historial" } },
+    { "type": "cta", "title": "Chau *sticker*", "sub": "Gratis para vos y para tu mecánico." }
+  ]
+}
