@@ -124,5 +124,19 @@
     ],
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-2755251158200661907",
     "notes": "Carrusel (posteo #9 de la rotación), ángulo dueño. Metricool da 21–22 h como mejor franja del lunes (1942/1949 vs 1858 a las 19) → 21:12, según ajuste semanal (video de Maxi pasa a 17 h). Programado OK en las 3 redes (id 406604795)."
+  },
+  {
+    "id": "2026-10-27",
+    "theme": "cubiertas",
+    "format": "reel",
+    "hook": "¿Tu auto tira para un lado?",
+    "scheduled_at": "2026-10-27T21:12:00-03:00",
+    "networks": [
+      "instagram",
+      "facebook",
+      "tiktok"
+    ],
+    "planner_url": "",
+    "notes": "Reel (posteo #10 de la rotación) con voz en off, ángulo dueño con humor, 5 escenas / 21,6 s según ajuste semanal. Martes: Metricool da 21 h como la mejor hora (1915) → 21:12."
   }
 ]

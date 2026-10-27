@@ -1,0 +1,82 @@
+{
+ "id": "2026-10-27",
+ "theme": "cubiertas",
+ "format": "reel",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.4,
+   "kicker": "Pasa en las mejores familias",
+   "title": "¿Tu auto *tira para un lado*?",
+   "say": "¿Tu auto tira para un lado y hace meses que lo corregís con el volante?"
+  },
+  {
+   "type": "list",
+   "dur": 5.0,
+   "mark": "x",
+   "kicker": "Señales",
+   "title": "No es *mala suerte*",
+   "items": [
+    {
+     "t": "Tira hacia un costado"
+    },
+    {
+     "t": "El volante *vibra*"
+    },
+    {
+     "t": "Cubiertas gastadas *de un lado*"
+    }
+   ],
+   "say": "Si tira para un costado, el volante vibra o las cubiertas se gastan de un lado, no es mala suerte."
+  },
+  {
+   "type": "hook",
+   "dur": 3.4,
+   "title": "Toca *alinear y balancear*",
+   "sub": "Y rotar las cubiertas a tiempo.",
+   "say": "Toca alinear, balancear y rotar las cubiertas."
+  },
+  {
+   "type": "phone",
+   "dur": 4.6,
+   "title": "Libreta *te avisa*",
+   "sub": "Según tus km y el tiempo.",
+   "screen": {
+    "kind": "mantenimiento",
+    "items": [
+     [
+      "Alineación y balanceo",
+      "le toca ahora",
+      100,
+      "bad"
+     ],
+     [
+      "Rotar cubiertas",
+      "en 1.200 km",
+      85,
+      "soon"
+     ],
+     [
+      "Aceite y filtros",
+      "en 6.300 km",
+      40,
+      "ok"
+     ],
+     [
+      "Batería",
+      "en 14 meses",
+      35,
+      "ok"
+     ]
+    ]
+   },
+   "say": "Libreta te avisa cuándo le toca, según tus kilómetros y el tiempo."
+  },
+  {
+   "type": "cta",
+   "dur": 3.6,
+   "title": "Que no te avise *el volante*",
+   "say": "Que no te avise el volante. Entrá gratis a libretaapp.com."
+  }
+ ]
+}
