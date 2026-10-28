@@ -1,0 +1,13 @@
+{
+  "id": "2026-10-28",
+  "theme": "mitos",
+  "format": "image",
+  "slides": [
+    {"type": "list", "kicker": "Mitos del auto", "mark": "x", "title": "Lo que *tu tío* jura que es cierto", "items": [
+      {"t": "Calentar el motor 10 minutos", "d": "Un minuto y salir tranquilo alcanza"},
+      {"t": "La premium le hace bien a todos", "d": "Solo si el manual de tu auto la pide"},
+      {"t": "El aceite se cambia cuando está negro", "d": "Va por km o por tiempo, lo que llegue primero"},
+      {"t": "Si anda bien, no necesita service", "d": "Libreta te avisa qué le toca según los km"}
+    ]}
+  ]
+}

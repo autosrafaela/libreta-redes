@@ -138,5 +138,19 @@
     ],
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-2748030801311546047",
     "notes": "Reel (posteo #10 de la rotación) con voz en off, ángulo dueño con humor, 5 escenas / 21,6 s según ajuste semanal. Martes: Metricool da 21 h como la mejor hora (1915) → 21:12. Programado OK en las 3 redes (id 407795265)."
+  },
+  {
+    "id": "2026-10-28",
+    "theme": "mitos",
+    "format": "image",
+    "hook": "Lo que tu tío jura que es cierto",
+    "scheduled_at": "2026-10-28T22:12:00-03:00",
+    "networks": [
+      "instagram",
+      "facebook",
+      "tiktok"
+    ],
+    "planner_url": "",
+    "notes": "Imagen (posteo #11 de la rotación), ángulo dueño con humor. Miércoles: Metricool da 22 h como la mejor hora (1975 vs 1930 a las 20) → 22:12."
   }
 ]
