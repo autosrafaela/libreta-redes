@@ -1,145 +1,159 @@
 [
-  {
-    "fecha": "2026-10-18",
-    "tema": "comprar-usado",
-    "gancho": "¿Vas a comprar un usado? Antes de señar, pedí estas tres cosas.",
-    "guion": "¿Vas a comprar un usado? Antes de señar, pedí estas tres cosas. Soy mandatario del automotor acá en Rafaela y pasa mucho que alguien viene a transferir un auto que ya pagó, y recién ahí se entera de lo que no le contaron. Uno: el informe de dominio, para ver si tiene deudas o prenda. Dos: que lo revise un mecánico de tu confianza. Y tres: el historial de mantenimiento, pero no el \"siempre lo llevé al mecánico\" de palabra. Pedile al vendedor el link de Libreta: los trabajos los cargan los talleres, quedan por patente, no se pueden borrar y los kilómetros solo van para adelante. Entrá gratis a libretaapp.com, el link está en mi perfil.",
-    "palabras_clave": [
-      "Informe de dominio",
-      "Mecánico de confianza",
-      "Historial verificado"
-    ],
-    "lugar": "En la oficina, con una carpeta de papeles de transferencia sobre el escritorio (o al lado de un usado en la vereda)",
-    "hora_sugerida": "13:30",
-    "caption": "¿Vas a comprar un usado? Antes de señar, pedí estas 3 cosas 🚗\n\n1️⃣ Informe de dominio (deudas y prendas)\n2️⃣ Revisión de un mecánico de confianza\n3️⃣ El historial de mantenimiento, verificado y no de palabra ✅\n\nEn Libreta lo cargan los talleres, queda por patente y no se puede borrar.\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #AutosUsados #Mandatario #Transferencia #Libreta"
-  },
-  {
-    "fecha": "2026-10-19",
-    "tema": "transferir-historial",
-    "gancho": "Todos los días hago transferencias, y hay algo que nunca se transfiere: la historia del auto.",
-    "guion": "Todos los días hago transferencias de autos acá en Rafaela, y hay algo que nunca se transfiere: la historia del auto. Pasan los papeles, pasan las llaves... y los services, las cubiertas, lo que le hicieron, queda en un cajón del dueño anterior. Con Libreta eso no pasa. Los trabajos los cargan los talleres, quedan guardados por patente, y cuando vendés, le pasás el historial completo al nuevo dueño. El que compra sabe lo que se lleva, y vos vendés mejor. Y sí, es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
-    "palabras_clave": [
-      "Se transfiere todo...",
-      "...menos la historia",
-      "Historial al nuevo dueño"
-    ],
-    "lugar": "En la oficina, con un formulario de transferencia y unas llaves sobre el escritorio",
-    "hora_sugerida": "16:00",
-    "caption": "Pasan los papeles, pasan las llaves… ¿y la historia del auto? 🚗\n\nCon Libreta los trabajos los cargan los talleres, quedan por patente y cuando vendés, el historial pasa al nuevo dueño ✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #Transferencia #Mandatario #AutosUsados #Libreta"
-  },
-  {
-    "fecha": "2026-10-20",
-    "tema": "km-reales",
-    "gancho": "Hay autos que rejuvenecen. Sí: de un día para el otro tienen menos kilómetros.",
-    "guion": "Hay autos que rejuvenecen. Sí: de un día para el otro tienen menos kilómetros. Soy mandatario del automotor acá en Rafaela, y pasa mucho que alguien compra un usado y después se entera de que los kilómetros no eran los que marcaba. El cuentakilómetros se puede tocar. Libreta no: cada trabajo lo carga el taller con los kilómetros de ese día, y los kilómetros solo van para adelante. Nadie los puede bajar ni borrar un trabajo. Si vas a comprar, pedí el historial. Si vas a vender, tenelo. Y es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
-    "palabras_clave": [
-      "Autos que rejuvenecen",
-      "Los km solo van para adelante",
-      "Pedí el historial"
-    ],
-    "lugar": "Al lado de un usado, mostrando el tablero / cuentakilómetros (o en la oficina con una carpeta de transferencia)",
-    "hora_sugerida": "16:00",
-    "caption": "Hay autos que rejuvenecen 🤔 De un día para el otro, menos kilómetros.\n\nEn Libreta cada trabajo lo carga el taller con los km de ese día, y los km solo van para adelante ✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #AutosUsados #Kilometraje #Mandatario #Libreta",
-    "video": "posts/2026-10-20-maxi/video.mp4",
-    "programado": "2026-10-20T16:00:00-03:00",
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=51540185972623779"
-  },
-  {
-    "fecha": "2026-10-21",
-    "tema": "informe-comprador",
-    "gancho": "¿Querés vender tu auto más rápido? Mandale esto al comprador.",
-    "guion": "¿Querés vender tu auto más rápido? Mandale esto al comprador. Soy mandatario del automotor acá en Rafaela y lo veo siempre: el que compra un usado desconfía, y con razón. Vos le decís \"está impecable, siempre lo llevé al mecánico\"... y no te cree. Con Libreta le mandás un link con el historial del auto: cada trabajo lo cargó el taller, con fecha y kilómetros, y nadie lo puede borrar. El comprador lo mira desde el celular y compra tranquilo. Y es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
-    "palabras_clave": [
-      "Vendé más rápido",
-      "El historial en un link",
-      "Lo carga el taller"
-    ],
-    "lugar": "Al lado de un auto en venta (o en la oficina), mostrando el celular como si mandaras el link por WhatsApp",
-    "hora_sugerida": "16:00",
-    "caption": "¿Querés vender tu auto más rápido? Mandale esto al comprador 📲\n\nCon Libreta le pasás un link con el historial: lo cargan los talleres, con fecha y km, y no se puede borrar ✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #AutosUsados #VenderAuto #Mandatario #Libreta"
-  },
-  {
-    "fecha": "2026-10-22",
-    "tema": "multa-vtv",
-    "gancho": "¿Sabés cuándo te vence la VTV? Sin mirar los papeles.",
-    "guion": "¿Sabés cuándo te vence la VTV? Sin mirar los papeles. Soy mandatario del automotor acá en Rafaela y lo veo siempre: la VTV, el seguro, la licencia... te enterás de que venció cuando te paran en un control. Y ahí ya es tarde. Con Libreta cargás tu auto o tu moto y la app te avisa al celular antes de que venza cada cosa: VTV, seguro, patente, licencia, matafuegos. Y es gratis. En la parte 2 te cuento qué tenés que llevar sí o sí en el auto. Entrá gratis a libretaapp.com, el link está en mi perfil.",
-    "palabras_clave": [
-      "¿Cuándo vence tu VTV?",
-      "Te avisa antes",
-      "Gratis"
-    ],
-    "lugar": "Arriba del auto o al lado, con la oblea de la VTV a la vista en el parabrisas (o en la oficina con la carpeta de papeles)",
-    "hora_sugerida": "16:00",
-    "caption": "¿Sabés cuándo te vence la VTV? Sin mirar 👀\n\nLibreta te avisa al celu antes de que venzan la VTV, el seguro, la patente, la licencia y el matafuegos 📅✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #Motos #VTV #Mandatario #Libreta"
-  },
-  {
-    "fecha": "2026-10-23",
-    "tema": "moto",
-    "gancho": "La moto es la hermana olvidada: al auto le anotás todo, y a la moto, nada.",
-    "guion": "La moto es la hermana olvidada: al auto le anotás todo, y a la moto, nada. Soy mandatario del automotor acá en Rafaela, y cuando alguien viene a transferir una moto, de la historia nadie sabe nada. ¿Cuándo le cambiaron el aceite? Ni idea. Libreta también es para motos: el taller carga cada trabajo por patente, con fecha y kilómetros, y no se borra. Te avisa cuándo le toca el service y antes de que venzan el seguro o la patente. Y cuando la vendas, el historial pasa al nuevo dueño. Y sí, es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
-    "palabras_clave": [
-      "¿Y la moto?",
-      "También es para motos",
-      "Gratis"
-    ],
-    "lugar": "Al lado de una moto (en la vereda de la oficina o en un taller de motos), con el celular en la mano",
-    "hora_sugerida": "16:00",
-    "caption": "¿Y la moto? 🏍️ Al auto le anotás todo y a la moto, nada.\n\nLibreta también es para motos: el taller carga cada trabajo por patente y te avisa el service y los vencimientos ✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Motos #Moteros #Mandatario #Libreta"
-  },
-  {
-    "fecha": "2026-10-24",
-    "tema": "directorio-talleres",
-    "gancho": "¿Me recomendás un mecánico? Me lo preguntan seguido acá en la oficina.",
-    "guion": "¿Me recomendás un mecánico? Me lo preguntan seguido acá en la oficina. Soy mandatario del automotor en Rafaela, y es lógico: nadie quiere dejar el auto en cualquier lado. El problema es que el boca en boca no siempre alcanza. En Libreta hay un directorio de talleres: los buscás por rubro y por ciudad, cada uno está verificado, con su tilde azul, y las opiniones son de clientes que tuvieron un trabajo real ahí. No de cualquiera que pasaba. Mecánica, gomería, frenos, lo que necesites. Y es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
-    "palabras_clave": [
-      "¿Me recomendás un mecánico?",
-      "Talleres verificados",
-      "Opiniones reales"
-    ],
-    "lugar": "En la oficina, atendiendo como si te lo preguntara un cliente (o en la vereda de un taller con el cartel de fondo), mostrando el celular",
-    "hora_sugerida": "14:30",
-    "caption": "¿Me recomendás un mecánico? 🔧 Me lo preguntan seguido.\n\nEn Libreta buscás talleres por rubro y ciudad: verificados, con tilde azul y opiniones de clientes que tuvieron un trabajo real ✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #Mecanica #Taller #Mandatario #Libreta"
-  },
-  {
-    "fecha": "2026-10-25",
-    "tema": "kit-ruta",
-    "gancho": "Parte 2. Te paran en un control, tenés todo al día… y no encontrás el matafuegos.",
-    "guion": "Parte 2. El otro día te conté cómo no olvidarte de la VTV. Hoy: qué tenés que llevar sí o sí en el auto. Soy mandatario del automotor acá en Rafaela y pasa mucho: te paran en un control, tenés todo al día… y no encontrás el matafuegos. Repasemos: licencia, cédula, seguro, matafuegos cargado, balizas, chaleco y botiquín. En Libreta tenés un checklist para tildar todo eso, y la app te avisa antes de que venza el matafuegos, el seguro o la VTV. Y sí, es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
-    "palabras_clave": [
-      "Parte 2",
-      "¿Qué llevás en el auto?",
-      "Checklist gratis"
-    ],
-    "lugar": "Al lado del auto con el baúl abierto, sacando el matafuegos y las balizas mientras los nombrás",
-    "hora_sugerida": "15:00",
-    "caption": "Parte 2: ¿qué tenés que llevar sí o sí en el auto? 🚗\n\nLicencia, cédula, seguro, matafuegos cargado, balizas, chaleco y botiquín ✅\n\nEn Libreta tenés el checklist y te avisa antes de que venzan el matafuegos, el seguro y la VTV 📅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #VTV #Mandatario #Libreta"
-  },
-  {
-    "fecha": "2026-10-26",
-    "tema": "es-gratis",
-    "gancho": "¿Cuál es la trampa? Me lo preguntan todos los días cuando cuento que Libreta es gratis.",
-    "guion": "¿Cuál es la trampa? Me lo preguntan todos los días cuando cuento que Libreta es gratis. No hay trampa: es gratis para vos y para tu mecánico, y no te pide tarjeta. Tu mecánico carga cada trabajo con la patente y los km, y queda guardado: no se borra. La app te avisa antes de que se te venza la VTV, el seguro o la patente. Y el día que vendés el auto, le mandás el historial al comprador con un link. ¿La única trampa? Que le tenés que decir a tu mecánico que lo cargue. Entrá gratis a libretaapp.com, el link está en mi perfil.",
-    "palabras_clave": [
-      "¿Cuál es la trampa?",
-      "GRATIS · sin tarjeta",
-      "libretaapp.com"
-    ],
-    "lugar": "En la oficina, en el escritorio, con cara de \"otra vez la misma pregunta\" al arrancar",
-    "hora_sugerida": "17:00",
-    "caption": "¿Cuál es la trampa? 🤔 Me lo preguntan todos los días.\n\nLibreta es gratis para vos y para tu mecánico, sin tarjeta ✅\nHistorial por patente, avisos de VTV, seguro y patente, e informe para cuando vendés 🚗\n\nLa única trampa: decile a tu mecánico que lo cargue 😉\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #Motos #Gratis #Mandatario #Libreta"
-  },
-  {
-    "fecha": "2026-10-27",
-    "tema": "valor-reventa",
-    "gancho": "Dos autos iguales, mismo año, mismo modelo. Uno se vende enseguida y el otro queda dando vueltas.",
-    "guion": "Dos autos iguales, mismo año, mismo modelo. Uno se vende enseguida y el otro queda dando vueltas. Lo veo pasar mucho acá en la oficina. ¿Sabés cuál es la diferencia? El que se vende rápido puede demostrar cómo lo cuidaron. Con Libreta, cada service lo carga el taller, con fecha y kilómetros, y nadie lo puede borrar. Cuando vendés, le mandás al comprador el historial en un link, y después se lo pasás al nuevo dueño. Y es gratis, sin tarjeta. Entrá gratis a libretaapp.com, el link está en mi perfil.",
-    "caption": "Dos autos iguales… y uno se vende primero 🚗 ¿Por qué? Porque puede demostrar cómo lo cuidaron. Con Libreta el historial lo cargan los talleres y se lo mandás al comprador en un link ✅ Gratis, sin tarjeta.\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Autos #VenderAuto #Usados #Libreta",
-    "pantalla": [
-      "Mismo auto",
-      "Historial en un link",
-      "GRATIS"
-    ],
-    "lugar": "Oficina, con dos llaves de auto sobre el escritorio",
-    "hora": "17:00"
-  }
+ {
+  "fecha": "2026-10-18",
+  "tema": "comprar-usado",
+  "gancho": "¿Vas a comprar un usado? Antes de señar, pedí estas tres cosas.",
+  "guion": "¿Vas a comprar un usado? Antes de señar, pedí estas tres cosas. Soy mandatario del automotor acá en Rafaela y pasa mucho que alguien viene a transferir un auto que ya pagó, y recién ahí se entera de lo que no le contaron. Uno: el informe de dominio, para ver si tiene deudas o prenda. Dos: que lo revise un mecánico de tu confianza. Y tres: el historial de mantenimiento, pero no el \"siempre lo llevé al mecánico\" de palabra. Pedile al vendedor el link de Libreta: los trabajos los cargan los talleres, quedan por patente, no se pueden borrar y los kilómetros solo van para adelante. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "palabras_clave": [
+   "Informe de dominio",
+   "Mecánico de confianza",
+   "Historial verificado"
+  ],
+  "lugar": "En la oficina, con una carpeta de papeles de transferencia sobre el escritorio (o al lado de un usado en la vereda)",
+  "hora_sugerida": "13:30",
+  "caption": "¿Vas a comprar un usado? Antes de señar, pedí estas 3 cosas 🚗\n\n1️⃣ Informe de dominio (deudas y prendas)\n2️⃣ Revisión de un mecánico de confianza\n3️⃣ El historial de mantenimiento, verificado y no de palabra ✅\n\nEn Libreta lo cargan los talleres, queda por patente y no se puede borrar.\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #AutosUsados #Mandatario #Transferencia #Libreta"
+ },
+ {
+  "fecha": "2026-10-19",
+  "tema": "transferir-historial",
+  "gancho": "Todos los días hago transferencias, y hay algo que nunca se transfiere: la historia del auto.",
+  "guion": "Todos los días hago transferencias de autos acá en Rafaela, y hay algo que nunca se transfiere: la historia del auto. Pasan los papeles, pasan las llaves... y los services, las cubiertas, lo que le hicieron, queda en un cajón del dueño anterior. Con Libreta eso no pasa. Los trabajos los cargan los talleres, quedan guardados por patente, y cuando vendés, le pasás el historial completo al nuevo dueño. El que compra sabe lo que se lleva, y vos vendés mejor. Y sí, es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "palabras_clave": [
+   "Se transfiere todo...",
+   "...menos la historia",
+   "Historial al nuevo dueño"
+  ],
+  "lugar": "En la oficina, con un formulario de transferencia y unas llaves sobre el escritorio",
+  "hora_sugerida": "16:00",
+  "caption": "Pasan los papeles, pasan las llaves… ¿y la historia del auto? 🚗\n\nCon Libreta los trabajos los cargan los talleres, quedan por patente y cuando vendés, el historial pasa al nuevo dueño ✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #Transferencia #Mandatario #AutosUsados #Libreta"
+ },
+ {
+  "fecha": "2026-10-20",
+  "tema": "km-reales",
+  "gancho": "Hay autos que rejuvenecen. Sí: de un día para el otro tienen menos kilómetros.",
+  "guion": "Hay autos que rejuvenecen. Sí: de un día para el otro tienen menos kilómetros. Soy mandatario del automotor acá en Rafaela, y pasa mucho que alguien compra un usado y después se entera de que los kilómetros no eran los que marcaba. El cuentakilómetros se puede tocar. Libreta no: cada trabajo lo carga el taller con los kilómetros de ese día, y los kilómetros solo van para adelante. Nadie los puede bajar ni borrar un trabajo. Si vas a comprar, pedí el historial. Si vas a vender, tenelo. Y es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "palabras_clave": [
+   "Autos que rejuvenecen",
+   "Los km solo van para adelante",
+   "Pedí el historial"
+  ],
+  "lugar": "Al lado de un usado, mostrando el tablero / cuentakilómetros (o en la oficina con una carpeta de transferencia)",
+  "hora_sugerida": "16:00",
+  "caption": "Hay autos que rejuvenecen 🤔 De un día para el otro, menos kilómetros.\n\nEn Libreta cada trabajo lo carga el taller con los km de ese día, y los km solo van para adelante ✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #AutosUsados #Kilometraje #Mandatario #Libreta",
+  "video": "posts/2026-10-20-maxi/video.mp4",
+  "programado": "2026-10-20T16:00:00-03:00",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=51540185972623779"
+ },
+ {
+  "fecha": "2026-10-21",
+  "tema": "informe-comprador",
+  "gancho": "¿Querés vender tu auto más rápido? Mandale esto al comprador.",
+  "guion": "¿Querés vender tu auto más rápido? Mandale esto al comprador. Soy mandatario del automotor acá en Rafaela y lo veo siempre: el que compra un usado desconfía, y con razón. Vos le decís \"está impecable, siempre lo llevé al mecánico\"... y no te cree. Con Libreta le mandás un link con el historial del auto: cada trabajo lo cargó el taller, con fecha y kilómetros, y nadie lo puede borrar. El comprador lo mira desde el celular y compra tranquilo. Y es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "palabras_clave": [
+   "Vendé más rápido",
+   "El historial en un link",
+   "Lo carga el taller"
+  ],
+  "lugar": "Al lado de un auto en venta (o en la oficina), mostrando el celular como si mandaras el link por WhatsApp",
+  "hora_sugerida": "16:00",
+  "caption": "¿Querés vender tu auto más rápido? Mandale esto al comprador 📲\n\nCon Libreta le pasás un link con el historial: lo cargan los talleres, con fecha y km, y no se puede borrar ✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #AutosUsados #VenderAuto #Mandatario #Libreta"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "multa-vtv",
+  "gancho": "¿Sabés cuándo te vence la VTV? Sin mirar los papeles.",
+  "guion": "¿Sabés cuándo te vence la VTV? Sin mirar los papeles. Soy mandatario del automotor acá en Rafaela y lo veo siempre: la VTV, el seguro, la licencia... te enterás de que venció cuando te paran en un control. Y ahí ya es tarde. Con Libreta cargás tu auto o tu moto y la app te avisa al celular antes de que venza cada cosa: VTV, seguro, patente, licencia, matafuegos. Y es gratis. En la parte 2 te cuento qué tenés que llevar sí o sí en el auto. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "palabras_clave": [
+   "¿Cuándo vence tu VTV?",
+   "Te avisa antes",
+   "Gratis"
+  ],
+  "lugar": "Arriba del auto o al lado, con la oblea de la VTV a la vista en el parabrisas (o en la oficina con la carpeta de papeles)",
+  "hora_sugerida": "16:00",
+  "caption": "¿Sabés cuándo te vence la VTV? Sin mirar 👀\n\nLibreta te avisa al celu antes de que venzan la VTV, el seguro, la patente, la licencia y el matafuegos 📅✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #Motos #VTV #Mandatario #Libreta"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "moto",
+  "gancho": "La moto es la hermana olvidada: al auto le anotás todo, y a la moto, nada.",
+  "guion": "La moto es la hermana olvidada: al auto le anotás todo, y a la moto, nada. Soy mandatario del automotor acá en Rafaela, y cuando alguien viene a transferir una moto, de la historia nadie sabe nada. ¿Cuándo le cambiaron el aceite? Ni idea. Libreta también es para motos: el taller carga cada trabajo por patente, con fecha y kilómetros, y no se borra. Te avisa cuándo le toca el service y antes de que venzan el seguro o la patente. Y cuando la vendas, el historial pasa al nuevo dueño. Y sí, es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "palabras_clave": [
+   "¿Y la moto?",
+   "También es para motos",
+   "Gratis"
+  ],
+  "lugar": "Al lado de una moto (en la vereda de la oficina o en un taller de motos), con el celular en la mano",
+  "hora_sugerida": "16:00",
+  "caption": "¿Y la moto? 🏍️ Al auto le anotás todo y a la moto, nada.\n\nLibreta también es para motos: el taller carga cada trabajo por patente y te avisa el service y los vencimientos ✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Motos #Moteros #Mandatario #Libreta"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "directorio-talleres",
+  "gancho": "¿Me recomendás un mecánico? Me lo preguntan seguido acá en la oficina.",
+  "guion": "¿Me recomendás un mecánico? Me lo preguntan seguido acá en la oficina. Soy mandatario del automotor en Rafaela, y es lógico: nadie quiere dejar el auto en cualquier lado. El problema es que el boca en boca no siempre alcanza. En Libreta hay un directorio de talleres: los buscás por rubro y por ciudad, cada uno está verificado, con su tilde azul, y las opiniones son de clientes que tuvieron un trabajo real ahí. No de cualquiera que pasaba. Mecánica, gomería, frenos, lo que necesites. Y es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "palabras_clave": [
+   "¿Me recomendás un mecánico?",
+   "Talleres verificados",
+   "Opiniones reales"
+  ],
+  "lugar": "En la oficina, atendiendo como si te lo preguntara un cliente (o en la vereda de un taller con el cartel de fondo), mostrando el celular",
+  "hora_sugerida": "14:30",
+  "caption": "¿Me recomendás un mecánico? 🔧 Me lo preguntan seguido.\n\nEn Libreta buscás talleres por rubro y ciudad: verificados, con tilde azul y opiniones de clientes que tuvieron un trabajo real ✅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #Mecanica #Taller #Mandatario #Libreta"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "kit-ruta",
+  "gancho": "Parte 2. Te paran en un control, tenés todo al día… y no encontrás el matafuegos.",
+  "guion": "Parte 2. El otro día te conté cómo no olvidarte de la VTV. Hoy: qué tenés que llevar sí o sí en el auto. Soy mandatario del automotor acá en Rafaela y pasa mucho: te paran en un control, tenés todo al día… y no encontrás el matafuegos. Repasemos: licencia, cédula, seguro, matafuegos cargado, balizas, chaleco y botiquín. En Libreta tenés un checklist para tildar todo eso, y la app te avisa antes de que venza el matafuegos, el seguro o la VTV. Y sí, es gratis. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "palabras_clave": [
+   "Parte 2",
+   "¿Qué llevás en el auto?",
+   "Checklist gratis"
+  ],
+  "lugar": "Al lado del auto con el baúl abierto, sacando el matafuegos y las balizas mientras los nombrás",
+  "hora_sugerida": "15:00",
+  "caption": "Parte 2: ¿qué tenés que llevar sí o sí en el auto? 🚗\n\nLicencia, cédula, seguro, matafuegos cargado, balizas, chaleco y botiquín ✅\n\nEn Libreta tenés el checklist y te avisa antes de que venzan el matafuegos, el seguro y la VTV 📅\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #VTV #Mandatario #Libreta"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "es-gratis",
+  "gancho": "¿Cuál es la trampa? Me lo preguntan todos los días cuando cuento que Libreta es gratis.",
+  "guion": "¿Cuál es la trampa? Me lo preguntan todos los días cuando cuento que Libreta es gratis. No hay trampa: es gratis para vos y para tu mecánico, y no te pide tarjeta. Tu mecánico carga cada trabajo con la patente y los km, y queda guardado: no se borra. La app te avisa antes de que se te venza la VTV, el seguro o la patente. Y el día que vendés el auto, le mandás el historial al comprador con un link. ¿La única trampa? Que le tenés que decir a tu mecánico que lo cargue. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "palabras_clave": [
+   "¿Cuál es la trampa?",
+   "GRATIS · sin tarjeta",
+   "libretaapp.com"
+  ],
+  "lugar": "En la oficina, en el escritorio, con cara de \"otra vez la misma pregunta\" al arrancar",
+  "hora_sugerida": "17:00",
+  "caption": "¿Cuál es la trampa? 🤔 Me lo preguntan todos los días.\n\nLibreta es gratis para vos y para tu mecánico, sin tarjeta ✅\nHistorial por patente, avisos de VTV, seguro y patente, e informe para cuando vendés 🚗\n\nLa única trampa: decile a tu mecánico que lo cargue 😉\n\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n\n#Rafaela #Santafe #Autos #Motos #Gratis #Mandatario #Libreta"
+ },
+ {
+  "fecha": "2026-10-27",
+  "tema": "valor-reventa",
+  "gancho": "Dos autos iguales, mismo año, mismo modelo. Uno se vende enseguida y el otro queda dando vueltas.",
+  "guion": "Dos autos iguales, mismo año, mismo modelo. Uno se vende enseguida y el otro queda dando vueltas. Lo veo pasar mucho acá en la oficina. ¿Sabés cuál es la diferencia? El que se vende rápido puede demostrar cómo lo cuidaron. Con Libreta, cada service lo carga el taller, con fecha y kilómetros, y nadie lo puede borrar. Cuando vendés, le mandás al comprador el historial en un link, y después se lo pasás al nuevo dueño. Y es gratis, sin tarjeta. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "Dos autos iguales… y uno se vende primero 🚗 ¿Por qué? Porque puede demostrar cómo lo cuidaron. Con Libreta el historial lo cargan los talleres y se lo mandás al comprador en un link ✅ Gratis, sin tarjeta.\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Autos #VenderAuto #Usados #Libreta",
+  "pantalla": [
+   "Mismo auto",
+   "Historial en un link",
+   "GRATIS"
+  ],
+  "lugar": "Oficina, con dos llaves de auto sobre el escritorio",
+  "hora": "17:00"
+ },
+ {
+  "fecha": "2026-10-28",
+  "tema": "papeles-en-orden",
+  "gancho": "¿Sabés cuándo te vence el carnet de conducir? Sin sacar la billetera.",
+  "guion": "¿Sabés cuándo te vence el carnet de conducir? Sin sacar la billetera. Pasa mucho acá en la oficina: alguien viene a hacer un trámite del auto y recién ahí se entera de que tiene algo vencido. La licencia, el seguro, la patente. Nadie anda mirando fechas, y te enterás cuando te paran o cuando justo lo necesitás. Con Libreta cargás tus vencimientos una vez y la app te avisa al celular y por mail antes de que venzan. El matafuegos también. Y es gratis, sin tarjeta. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "¿Sabés cuándo te vence el carnet? 🪪 Sin mirar la billetera… Licencia, seguro, patente, matafuegos: Libreta te avisa al celular antes de que venzan 📅 Gratis, sin tarjeta.\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Autos #Licencia #Vencimientos #Libreta",
+  "pantalla": [
+   "¿Cuándo vence?",
+   "Te avisa antes",
+   "GRATIS"
+  ],
+  "lugar": "Oficina, sacando el carnet de la billetera a cámara",
+  "hora": "17:00"
+ }
 ]
