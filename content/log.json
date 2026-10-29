@@ -1,156 +1,170 @@
 [
-  {
-    "id": "2026-10-18",
-    "theme": "historial-al-vender",
-    "format": "carousel",
-    "hook": "El que compra no le cree al vendedor",
-    "scheduled_at": "2026-10-18T18:52:00-03:00",
-    "networks": [
-      "instagram",
-      "facebook",
-      "tiktok"
-    ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=4794017170270863682",
-    "notes": "Primer posteo"
-  },
-  {
-    "id": "2026-10-19",
-    "theme": "vencimientos",
-    "format": "reel",
-    "hook": "¿Cuándo vence tu VTV?",
-    "scheduled_at": "2026-10-19T20:12:00-03:00",
-    "networks": [
-      "instagram",
-      "facebook",
-      "tiktok"
-    ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-8791383516824843796",
-    "notes": "Con voz en off"
-  },
-  {
-    "id": "2026-10-20",
-    "theme": "clientes-recuperar",
-    "format": "reel",
-    "hook": "¿Cuántos clientes no volvieron más?",
-    "scheduled_at": "2026-10-20T20:12:00-03:00",
-    "networks": [
-      "instagram",
-      "facebook",
-      "tiktok"
-    ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-8162608588243383709",
-    "notes": "Reel con voz en off, ángulo talleres; muestra la captura real de 'Clientes para recuperar'. Nuevo tipo de pantalla 'captura' en el template. Metricool pide tiktokData.title también en reels."
-  },
-  {
-    "id": "2026-10-21",
-    "theme": "kit-ruta",
-    "format": "image",
-    "hook": "¿Tenés todo en el baúl?",
-    "scheduled_at": "2026-10-21T20:12:00-03:00",
-    "networks": [
-      "instagram",
-      "facebook",
-      "tiktok"
-    ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-5014596367064806449",
-    "notes": "Imagen (posteo #4 de la rotación): checklist antes de la ruta, texto corto según ajuste semanal. Programado OK en las 3 redes (id 402102063)."
-  },
-  {
-    "id": "2026-10-22",
-    "theme": "aprobar-presupuesto",
-    "format": "carousel",
-    "hook": "Fuiste a buscar el auto y la cuenta era otra",
-    "scheduled_at": "2026-10-22T20:12:00-03:00",
-    "networks": [
-      "instagram",
-      "facebook",
-      "tiktok"
-    ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=2262363251426476218",
-    "notes": "Carrusel (posteo #5 de la rotación), ángulo dueño. Lámina 3 con captura real del presupuesto que recibe el cliente (recortada, datos de prueba). Programado OK en las 3 redes (id 403118699)."
-  },
-  {
-    "id": "2026-10-23",
-    "theme": "tu-mecanico",
-    "format": "reel",
-    "hook": "¿Tu mecánico anota en un papelito?",
-    "scheduled_at": "2026-10-23T20:12:00-03:00",
-    "networks": [
-      "instagram",
-      "facebook",
-      "tiktok"
-    ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-5597719756649839705",
-    "notes": "Reel (posteo #6 de la rotación) con voz en off, ángulo dueño. Metricool daba 18 h como mejor hora (1851) pero 20 h casi igual (1824): se usa 20:12 para dejar el video de Maxi a las 16:00 según ajuste semanal. Fix en render.mjs: Chromium en chrome-linux64. Programado OK en las 3 redes (id 404143652)."
-  },
-  {
-    "id": "2026-10-24",
-    "theme": "recepcion-fotos",
-    "format": "carousel",
-    "hook": "“Ese rayón no estaba cuando lo traje”",
-    "scheduled_at": "2026-10-24T18:52:00-03:00",
-    "networks": [
-      "instagram",
-      "facebook",
-      "tiktok"
-    ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=8828068819894684484",
-    "notes": "Carrusel (posteo #7 de la rotación), ángulo talleres. Láminas 3 y 4 con capturas reales de la recepción del vehículo (recortadas, datos de prueba). Sábado: Metricool da 18 h como la mejor hora (1918) → 18:52. Programado OK en las 3 redes (id 404978052)."
-  },
-  {
-    "id": "2026-10-25",
-    "theme": "comprar-usado",
-    "format": "reel",
-    "hook": "¿Vas a comprar un usado?",
-    "scheduled_at": "2026-10-25T19:12:00-03:00",
-    "networks": [
-      "instagram",
-      "facebook",
-      "tiktok"
-    ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-8924546692428577301",
-    "notes": "Reel (posteo #8 = inicio del ciclo) con voz en off, ángulo dueño. Domingo: Metricool da 19 h como mejor hora (1847) → 19:12. Fix: sherpa-onnx 2.0.0 rompía la voz (no tokeniza con espeak); setup.sh fija sherpa-onnx<2. Programado OK en las 3 redes (id 405651320)."
-  },
-  {
-    "id": "2026-10-26",
-    "theme": "aceite-cuando",
-    "format": "carousel",
-    "hook": "El sticker del aceite ya no se lee",
-    "scheduled_at": "2026-10-26T21:12:00-03:00",
-    "networks": [
-      "instagram",
-      "facebook",
-      "tiktok"
-    ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-2755251158200661907",
-    "notes": "Carrusel (posteo #9 de la rotación), ángulo dueño. Metricool da 21–22 h como mejor franja del lunes (1942/1949 vs 1858 a las 19) → 21:12, según ajuste semanal (video de Maxi pasa a 17 h). Programado OK en las 3 redes (id 406604795)."
-  },
-  {
-    "id": "2026-10-27",
-    "theme": "cubiertas",
-    "format": "reel",
-    "hook": "¿Tu auto tira para un lado?",
-    "scheduled_at": "2026-10-27T21:12:00-03:00",
-    "networks": [
-      "instagram",
-      "facebook",
-      "tiktok"
-    ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-2748030801311546047",
-    "notes": "Reel (posteo #10 de la rotación) con voz en off, ángulo dueño con humor, 5 escenas / 21,6 s según ajuste semanal. Martes: Metricool da 21 h como la mejor hora (1915) → 21:12. Programado OK en las 3 redes (id 407795265)."
-  },
-  {
-    "id": "2026-10-28",
-    "theme": "mitos",
-    "format": "image",
-    "hook": "Lo que tu tío jura que es cierto",
-    "scheduled_at": "2026-10-28T22:12:00-03:00",
-    "networks": [
-      "instagram",
-      "facebook",
-      "tiktok"
-    ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=2557036470705209474",
-    "notes": "Imagen (posteo #11 de la rotación), ángulo dueño con humor. Miércoles: Metricool da 22 h como la mejor hora (1975 vs 1930 a las 20) → 22:12. Programado OK en las 3 redes (id 408929537)."
-  }
+ {
+  "id": "2026-10-18",
+  "theme": "historial-al-vender",
+  "format": "carousel",
+  "hook": "El que compra no le cree al vendedor",
+  "scheduled_at": "2026-10-18T18:52:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=4794017170270863682",
+  "notes": "Primer posteo"
+ },
+ {
+  "id": "2026-10-19",
+  "theme": "vencimientos",
+  "format": "reel",
+  "hook": "¿Cuándo vence tu VTV?",
+  "scheduled_at": "2026-10-19T20:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-8791383516824843796",
+  "notes": "Con voz en off"
+ },
+ {
+  "id": "2026-10-20",
+  "theme": "clientes-recuperar",
+  "format": "reel",
+  "hook": "¿Cuántos clientes no volvieron más?",
+  "scheduled_at": "2026-10-20T20:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-8162608588243383709",
+  "notes": "Reel con voz en off, ángulo talleres; muestra la captura real de 'Clientes para recuperar'. Nuevo tipo de pantalla 'captura' en el template. Metricool pide tiktokData.title también en reels."
+ },
+ {
+  "id": "2026-10-21",
+  "theme": "kit-ruta",
+  "format": "image",
+  "hook": "¿Tenés todo en el baúl?",
+  "scheduled_at": "2026-10-21T20:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-5014596367064806449",
+  "notes": "Imagen (posteo #4 de la rotación): checklist antes de la ruta, texto corto según ajuste semanal. Programado OK en las 3 redes (id 402102063)."
+ },
+ {
+  "id": "2026-10-22",
+  "theme": "aprobar-presupuesto",
+  "format": "carousel",
+  "hook": "Fuiste a buscar el auto y la cuenta era otra",
+  "scheduled_at": "2026-10-22T20:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=2262363251426476218",
+  "notes": "Carrusel (posteo #5 de la rotación), ángulo dueño. Lámina 3 con captura real del presupuesto que recibe el cliente (recortada, datos de prueba). Programado OK en las 3 redes (id 403118699)."
+ },
+ {
+  "id": "2026-10-23",
+  "theme": "tu-mecanico",
+  "format": "reel",
+  "hook": "¿Tu mecánico anota en un papelito?",
+  "scheduled_at": "2026-10-23T20:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-5597719756649839705",
+  "notes": "Reel (posteo #6 de la rotación) con voz en off, ángulo dueño. Metricool daba 18 h como mejor hora (1851) pero 20 h casi igual (1824): se usa 20:12 para dejar el video de Maxi a las 16:00 según ajuste semanal. Fix en render.mjs: Chromium en chrome-linux64. Programado OK en las 3 redes (id 404143652)."
+ },
+ {
+  "id": "2026-10-24",
+  "theme": "recepcion-fotos",
+  "format": "carousel",
+  "hook": "“Ese rayón no estaba cuando lo traje”",
+  "scheduled_at": "2026-10-24T18:52:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=8828068819894684484",
+  "notes": "Carrusel (posteo #7 de la rotación), ángulo talleres. Láminas 3 y 4 con capturas reales de la recepción del vehículo (recortadas, datos de prueba). Sábado: Metricool da 18 h como la mejor hora (1918) → 18:52. Programado OK en las 3 redes (id 404978052)."
+ },
+ {
+  "id": "2026-10-25",
+  "theme": "comprar-usado",
+  "format": "reel",
+  "hook": "¿Vas a comprar un usado?",
+  "scheduled_at": "2026-10-25T19:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-8924546692428577301",
+  "notes": "Reel (posteo #8 = inicio del ciclo) con voz en off, ángulo dueño. Domingo: Metricool da 19 h como mejor hora (1847) → 19:12. Fix: sherpa-onnx 2.0.0 rompía la voz (no tokeniza con espeak); setup.sh fija sherpa-onnx<2. Programado OK en las 3 redes (id 405651320)."
+ },
+ {
+  "id": "2026-10-26",
+  "theme": "aceite-cuando",
+  "format": "carousel",
+  "hook": "El sticker del aceite ya no se lee",
+  "scheduled_at": "2026-10-26T21:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-2755251158200661907",
+  "notes": "Carrusel (posteo #9 de la rotación), ángulo dueño. Metricool da 21–22 h como mejor franja del lunes (1942/1949 vs 1858 a las 19) → 21:12, según ajuste semanal (video de Maxi pasa a 17 h). Programado OK en las 3 redes (id 406604795)."
+ },
+ {
+  "id": "2026-10-27",
+  "theme": "cubiertas",
+  "format": "reel",
+  "hook": "¿Tu auto tira para un lado?",
+  "scheduled_at": "2026-10-27T21:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-2748030801311546047",
+  "notes": "Reel (posteo #10 de la rotación) con voz en off, ángulo dueño con humor, 5 escenas / 21,6 s según ajuste semanal. Martes: Metricool da 21 h como la mejor hora (1915) → 21:12. Programado OK en las 3 redes (id 407795265)."
+ },
+ {
+  "id": "2026-10-28",
+  "theme": "mitos",
+  "format": "image",
+  "hook": "Lo que tu tío jura que es cierto",
+  "scheduled_at": "2026-10-28T22:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=2557036470705209474",
+  "notes": "Imagen (posteo #11 de la rotación), ángulo dueño con humor. Miércoles: Metricool da 22 h como la mejor hora (1975 vs 1930 a las 20) → 22:12. Programado OK en las 3 redes (id 408929537)."
+ },
+ {
+  "id": "2026-10-29",
+  "theme": "cobros-senas",
+  "format": "carousel",
+  "hook": "“Después te transfiero”",
+  "scheduled_at": "2026-10-29T19:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "",
+  "notes": "Carrusel (posteo #12 de la rotación), ángulo talleres con dolor de plata (1 de 1–2 por semana). Láminas 3 y 4 con capturas reales (cobros de una orden y cuenta corriente, marcada como datos de ejemplo). Jueves: Metricool da 19 h como la mejor (1926 vs 1881 a las 22) → 19:12."
+ }
 ]

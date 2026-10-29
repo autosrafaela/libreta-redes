@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-29",
+  "theme": "cobros-senas",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "Para talleres", "title": "“Después te *transfiero*”", "sub": "¿Y cuántos te transfirieron?" },
+    { "type": "list", "mark": "x", "title": "Lo de *siempre*", "items": [
+      { "t": "La seña anotada en un papelito" },
+      { "t": "El saldo, *de memoria*" },
+      { "t": "Y a fin de mes no sabés quién te debe" } ] },
+    { "type": "phone", "title": "Anotá cada *pago*", "sub": "Seña o saldo: efectivo, transferencia o tarjeta.",
+      "screen": { "kind": "captura", "src": "posts/2026-10-29/captura-cobro.png", "top": 0 } },
+    { "type": "phone", "title": "Mirá quién *te debe*", "sub": "Y recordale el saldo por WhatsApp. (Datos de ejemplo)",
+      "screen": { "kind": "captura", "src": "posts/2026-10-29/captura-deben.png", "top": 0 } },
+    { "type": "list", "mark": "check", "title": "Y el cliente *recibe*", "items": [
+      { "t": "El detalle de lo que pagó" },
+      { "t": "Un comprobante", "d": "No es factura" },
+      { "t": "Sin vueltas ni discusiones" } ] },
+    { "type": "cta", "title": "Cobrá *lo que es tuyo*", "sub": "Señas, saldos y quién te debe, en un solo lugar." }
+  ]
+}
