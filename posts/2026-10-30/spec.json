@@ -1,0 +1,48 @@
+{
+ "id": "2026-10-30",
+ "theme": "turnos",
+ "format": "reel",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.6,
+   "kicker": "Pasa en las mejores familias",
+   "title": "Audio al taller… *y nada*",
+   "say": "¿Le mandaste un audio al mecánico para pedir turno y te clavó el visto?"
+  },
+  {
+   "type": "list",
+   "dur": 4.8,
+   "mark": "x",
+   "kicker": "Pedir turno",
+   "title": "Siempre *lo mismo*",
+   "items": [
+    {"t": "Audios *sin respuesta*"},
+    {"t": "Te olvidás *el día*"},
+    {"t": "Llegás y *no te esperaban*"}
+   ],
+   "say": "Audios sin respuesta, te olvidás el día, o llegás y no te esperaban."
+  },
+  {
+   "type": "phone",
+   "dur": 4.8,
+   "title": "Pedilo *desde la app*",
+   "sub": "Y con un botón, a tu *Google Calendar*.",
+   "screen": {"kind": "turno"},
+   "say": "Con Libreta le pedís el turno al taller desde la app, y con un botón lo pasás a tu Google Calendar."
+  },
+  {
+   "type": "hook",
+   "dur": 3.6,
+   "title": "El taller *lo acepta*",
+   "sub": "O te propone otro horario.",
+   "say": "El taller lo acepta, o te propone otro horario."
+  },
+  {
+   "type": "cta",
+   "dur": 3.6,
+   "title": "Menos audios, *más turnos*",
+   "say": "Menos audios y más turnos. Entrá gratis a libretaapp.com."
+  }
+ ]
+}
