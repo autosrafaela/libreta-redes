@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-31",
+  "theme": "sustos-halloween",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "Especial Halloween", "title": "Los *sustos* que te da el auto", "sub": "Y cómo evitarlos sin prender una vela." },
+    { "type": "list", "mark": "x", "title": "Sustos *de verdad*", "items": [
+      { "t": "Te paran y la VTV *venció*" },
+      { "t": "El usado tenía *otros km*" },
+      { "t": "La cuenta del taller, *el doble*" },
+      { "t": "Vendés y nadie te cree los services" } ] },
+    { "type": "phone", "title": "Susto 1: *el control*", "sub": "Libreta te avisa antes de que venzan la VTV, el seguro o la patente.",
+      "screen": { "kind": "vencimientos" } },
+    { "type": "phone", "title": "Susto 2: *los km*", "sub": "Los km solo van para adelante y los trabajos no se borran.",
+      "screen": { "kind": "historial" } },
+    { "type": "phone", "title": "Susto 3: *la cuenta*", "sub": "El presupuesto te llega al celu y lo aprobás antes de que toquen nada.",
+      "screen": { "kind": "captura", "src": "posts/2026-10-31/captura-presupuesto.png", "top": 0 } },
+    { "type": "phone", "title": "Susto 4: *vender*", "sub": "Mandale al comprador el historial con un link.",
+      "screen": { "kind": "informe" } },
+    { "type": "cta", "title": "Que el único susto sea *el disfraz*", "sub": "Gratis para dueños y talleres, sin tarjeta." }
+  ]
+}

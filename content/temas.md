@@ -21,6 +21,7 @@
 - mitos — Mitos del mantenimiento (aceite, nafta premium, calentar el motor)
 - valor-reventa — Un auto con historial se vende más rápido
 - es-gratis — "¿Cuál es la trampa?": gratis para dueños y talleres, sin tarjeta (el mensaje que más rindió)
+- sustos-halloween — Los sustos que te da el auto (VTV vencida, km, cuenta del taller, vender) y cómo evitarlos (fecha especial: 31/10)
 
 ## Profesionales (talleres, gomerías, lubricentros)
 - clientes-vuelven — ¿Cuántos clientes atendiste que nunca volvieron? Con Libreta, vuelven
