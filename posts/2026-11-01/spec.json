@@ -1,0 +1,49 @@
+{
+ "id": "2026-11-01",
+ "theme": "es-gratis",
+ "format": "reel",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.6,
+   "kicker": "Lo que todos preguntan",
+   "title": "¿Gratis?\n*¿Y la trampa?*",
+   "say": "¿Una app gratis para el auto? Seguro hay trampa."
+  },
+  {
+   "type": "list",
+   "dur": 4.6,
+   "mark": "check",
+   "kicker": "Libreta",
+   "title": "Gratis *de verdad*",
+   "items": [
+    {"t": "Sin *tarjeta*"},
+    {"t": "Para *dueños*"},
+    {"t": "Para *talleres*"}
+   ],
+   "say": "No hay trampa: es gratis para vos y para tu taller, y no te pide tarjeta."
+  },
+  {
+   "type": "phone",
+   "dur": 4.4,
+   "title": "Te avisa *antes*",
+   "sub": "VTV, seguro, patente, licencia.",
+   "screen": {"kind": "vencimientos"},
+   "say": "Te avisa antes de que se venza la VTV, el seguro o la patente."
+  },
+  {
+   "type": "phone",
+   "dur": 4.6,
+   "title": "Historial *por patente*",
+   "sub": "Lo carga el taller. *No se borra.*",
+   "screen": {"kind": "historial"},
+   "say": "Y tu mecánico carga cada trabajo por patente. Queda guardado y no se borra."
+  },
+  {
+   "type": "cta",
+   "dur": 4,
+   "title": "Esta vez, lo gratis\n*no sale caro*",
+   "say": "Esta vez, lo gratis no sale caro. Entrá gratis a libretaapp.com."
+  }
+ ]
+}
