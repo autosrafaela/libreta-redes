@@ -208,5 +208,19 @@
   ],
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=-7361083175835185777",
   "notes": "Reel (posteo #15 = inicio del ciclo) con voz en off, ángulo dueño, 5 escenas / 21,9 s. Primer posteo automático con el mensaje 'es gratis' (el que más rindió en TikTok). Domingo: Metricool da 19 h como la mejor (1895) → 19:12. Programado OK en las 3 redes (id 412888673)."
+ },
+ {
+  "id": "2026-11-02",
+  "theme": "km-reales",
+  "format": "carousel",
+  "hook": "El auto que rejuvenece",
+  "scheduled_at": "2026-11-02T20:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": "",
+  "notes": "Carrusel (posteo #16 de la rotación), ángulo dueño con humor: las excusas del vendedor ('lo usaba mi abuela para ir a misa') y qué mirar para que los km cierren. Pregunta al final del caption para sumar comentarios (ajuste del resumen semanal 02/11). Lunes: Metricool da 20 h como la mejor (1968) → 20:12."
  }
 ]

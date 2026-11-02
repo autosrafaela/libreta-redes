@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-02",
+  "theme": "km-reales",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "Comprando un usado", "title": "El auto que *rejuvenece*", "sub": "Tiene 10 años y menos km que el tuyo. Raro, ¿no?" },
+    { "type": "list", "mark": "x", "title": "Lo que te *dicen*", "items": [
+      { "t": "\"Lo usaba mi abuela para ir a misa\"" },
+      { "t": "\"Estuvo guardado en el garage\"" },
+      { "t": "\"Los papeles del service *los perdí*\"" } ] },
+    { "type": "list", "mark": "check", "title": "Lo que *tenés que ver*", "items": [
+      { "t": "Que los km cierren con los años", "d": "Y con cómo está el interior" },
+      { "t": "Los services con fecha y km", "d": "Cargados por el taller, no a mano" },
+      { "t": "Que los km vayan *en subida*", "d": "Nunca un trabajo con menos km que el anterior" } ] },
+    { "type": "phone", "title": "En Libreta los km *solo suben*", "sub": "Cada trabajo lo carga el taller y no se borra ni se edita.", "screen": { "kind": "historial" } },
+    { "type": "phone", "title": "Pedile el *informe*", "sub": "El vendedor te manda el historial con un link.", "screen": { "kind": "informe" } },
+    { "type": "cta", "title": "Que el que *rejuvenezca* seas vos", "sub": "Gratis para dueños y talleres, sin tarjeta." }
+  ]
+}
