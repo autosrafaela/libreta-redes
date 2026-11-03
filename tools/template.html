@@ -92,7 +92,7 @@ const LOGO = 'LOGO_SRC';
 const esc = s => String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;');
 // *texto* = ámbar, **texto** = negrita
 const md = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\*(.+?)\*/g,'<span class="am">$1</span>').replace(/\n/g,'<br>');
-const fmtPlate = p => { p = (p||'AB123CD').toUpperCase().replace(/[^A-Z0-9]/g,''); return p.length===7 ? p.slice(0,2)+' '+p.slice(2,5)+' '+p.slice(5) : p.length===6 ? p.slice(0,3)+' '+p.slice(3) : p; };
+const fmtPlate = p => { p = (p||'AB123CD').toUpperCase().replace(/[^A-Z0-9]/g,''); return /^[A-Z][0-9]{3}[A-Z]{3}$/.test(p) ? p.slice(0,1)+' '+p.slice(1,4)+' '+p.slice(4) : p.length===7 ? p.slice(0,2)+' '+p.slice(2,5)+' '+p.slice(5) : p.length===6 ? p.slice(0,3)+' '+p.slice(3) : p; };
 let D = 0; const a = (html, extra='') => `<div class="a" data-d="${(D++)*0.22}" ${extra}>${html}</div>`;
 
 function screen(s){

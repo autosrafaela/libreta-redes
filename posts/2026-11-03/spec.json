@@ -1,0 +1,69 @@
+{
+ "id": "2026-11-03",
+ "theme": "moto",
+ "format": "reel",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.4,
+   "kicker": "Pasa en todas las casas",
+   "title": "Al auto, todo.\n*¿Y a la moto?*",
+   "say": "Al auto le hacés todo. ¿Y a la moto? Nada."
+  },
+  {
+   "type": "list",
+   "dur": 5.2,
+   "mark": "x",
+   "kicker": "La moto olvidada",
+   "title": "¿Cuándo fue *la última vez*?",
+   "items": [
+    {"t": "Cambio de *aceite*"},
+    {"t": "Tensar la *cadena*"},
+    {"t": "Revisar los *frenos*"}
+   ],
+   "say": "¿Cuándo le cambiaste el aceite? ¿Y la cadena? ¿Y los frenos? Silencio total."
+  },
+  {
+   "type": "phone",
+   "dur": 4.8,
+   "title": "Libreta *también es para motos*",
+   "sub": "El historial lo carga el taller.",
+   "screen": {
+    "kind": "historial",
+    "plate": "A123BCD",
+    "vehicle": "Honda Wave 110 2019",
+    "km": "18.320 km",
+    "items": [
+     ["02/10/2026","Motos Don Pepe","Cambio de aceite y filtro","18.300 km"],
+     ["20/06/2026","Motos Don Pepe","Kit de transmisión","15.900 km"],
+     ["11/02/2026","Gomería Ruta 34","Cubierta trasera","13.400 km"]
+    ]
+   },
+   "say": "Libreta también es para motos. Tu mecánico carga cada trabajo por patente y queda guardado."
+  },
+  {
+   "type": "phone",
+   "dur": 4.6,
+   "title": "Te avisa *antes*",
+   "sub": "Seguro, patente, licencia.",
+   "screen": {
+    "kind": "vencimientos",
+    "plate": "A123BCD",
+    "vehicle": "Honda Wave 110 2019",
+    "km": "18.320 km",
+    "items": [
+     ["Seguro","15/11/2026","soon","en 12 días"],
+     ["Patente","10/12/2026","ok","al día"],
+     ["Licencia","22/08/2029","ok","al día"]
+    ]
+   },
+   "say": "Y te avisa antes de que se venza el seguro, la patente o la licencia."
+  },
+  {
+   "type": "cta",
+   "dur": 4.2,
+   "title": "Que la moto\n*no se ponga celosa*",
+   "say": "Que la moto no se ponga celosa. Entrá gratis a libretaapp.com."
+  }
+ ]
+}
