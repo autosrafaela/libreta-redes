@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-04",
+  "theme": "papeles-en-orden",
+  "format": "image",
+  "slides": [
+    {"type": "list", "kicker": "Abrí la guantera", "mark": "x", "title": "Lo que *seguro* tenés en la guantera", "items": [
+      {"t": "La oblea de la VTV… vencida", "d": "Libreta te avisa antes de que venza"},
+      {"t": "La póliza del seguro del año pasado", "d": "También te avisa cuándo vence el seguro"},
+      {"t": "El papelito del service con los km", "d": "El taller lo carga en tu historial"},
+      {"t": "Un matafuegos que nadie revisó", "d": "Te avisa cuándo toca recargarlo"}
+    ]}
+  ]
+}
