@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-05",
+  "theme": "estado-orden",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "Para talleres", "title": "“¿Y, *está*?”", "sub": "La pregunta que más escuchás en el taller." },
+    { "type": "list", "mark": "x", "title": "Un día *cualquiera*", "items": [
+      { "t": "Te llama a la mañana" },
+      { "t": "Te manda un audio *a la siesta*" },
+      { "t": "Y a la tarde pasa “a ver cómo va”" } ] },
+    { "type": "list", "mark": "num", "title": "Con Libreta, *lo ve solo*", "items": [
+      { "t": "Recibido", "d": "Con km, combustible y fotos" },
+      { "t": "Presupuesto", "d": "Lo aprueba con un toque" },
+      { "t": "En trabajo", "d": "Sabe que ya estás en eso" },
+      { "t": "*Listo*", "d": "Y lo pasa a buscar" } ] },
+    { "type": "phone", "title": "Cada orden con su *estado*", "sub": "Movés la orden y el cliente ve en qué va. (Datos de ejemplo)",
+      "screen": { "kind": "captura", "src": "posts/2026-11-05/captura-estados.png", "top": 0 } },
+    { "type": "phone", "title": "Y cuando está, *se entera*", "sub": "Le mandás el link por WhatsApp: ve el detalle y lo que debe.",
+      "screen": { "kind": "captura", "src": "posts/2026-11-05/captura-listo.png", "top": 0 } },
+    { "type": "cta", "title": "Menos “¿y, está?”, *más trabajo*", "sub": "Gratis para talleres, sin tarjeta." }
+  ]
+}

@@ -250,5 +250,19 @@
     ],
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=3651250568680063335",
     "notes": "Imagen (posteo #18 de la rotación), ángulo dueño con humor ('la guantera': VTV vencida, póliza vieja, papelito del service, matafuegos) + pregunta para comentar en el caption, según ajuste semanal. Miércoles: Metricool da 21 h como la mejor (1978 vs 1912 a las 20) → 21:12. Programado OK en las 3 redes (id 416462747)."
+  },
+  {
+    "id": "2026-11-05",
+    "theme": "estado-orden",
+    "format": "carousel",
+    "hook": "“¿Y, está?”",
+    "scheduled_at": "2026-11-05T21:12:00-03:00",
+    "networks": [
+      "instagram",
+      "facebook",
+      "tiktok"
+    ],
+    "planner_url": "",
+    "notes": "Carrusel (posteo #19 de la rotación), ángulo talleres (el único de la semana) con humor: el cliente que pregunta '¿y, está?' + estados de la orden con capturas reales (datos de ejemplo, sin cajas de link). Pregunta para comentar en el caption. Jueves: Metricool da 12 h (1917) y 21 h (1891), casi empate → 21:12 para dejarle el mediodía libre al video de Maxi."
   }
 ]
