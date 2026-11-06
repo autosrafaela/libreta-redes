@@ -1,0 +1,64 @@
+{
+ "id": "2026-11-06",
+ "theme": "mantenimiento-predictivo",
+ "format": "reel",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.4,
+   "kicker": "El idioma del auto",
+   "title": "Tu auto habla\n*en ruiditos*",
+   "say": "Tu auto te avisa que le toca algo... con ruiditos."
+  },
+  {
+   "type": "list",
+   "dur": 5.2,
+   "mark": "x",
+   "kicker": "Avisos de último momento",
+   "title": "Cuando suena, *ya es tarde*",
+   "items": [
+    {"t": "Un *chirrido* al frenar"},
+    {"t": "Un *tac-tac* raro"},
+    {"t": "Una *luz* en el tablero"}
+   ],
+   "say": "Un chirrido al frenar, un tac tac raro, una luz en el tablero. Cuando suena, ya es tarde."
+  },
+  {
+   "type": "phone",
+   "dur": 4.8,
+   "title": "Libreta *te avisa antes*",
+   "sub": "Según tus km y el tiempo.",
+   "screen": {
+    "kind": "mantenimiento",
+    "items": [
+     ["Aceite y filtros", "le toca ahora", 100, "bad"],
+     ["Pastillas de freno", "en 1.500 km", 85, "soon"],
+     ["Alineación y balanceo", "en 4.000 km", 55, "ok"],
+     ["Batería", "en 14 meses", 35, "ok"]
+    ]
+   },
+   "say": "Libreta te dice qué le toca a tu auto, según los kilómetros y el tiempo."
+  },
+  {
+   "type": "phone",
+   "dur": 4.6,
+   "title": "Te llega *al celular*",
+   "screen": {
+    "kind": "aviso",
+    "plate": "AB 123 CD",
+    "items": [
+     ["Le toca el cambio de aceite", "AB 123 CD · van ~10.000 km del último"],
+     ["Revisá las pastillas de freno", "AB 123 CD · te faltan ~1.500 km"],
+     ["Lubricentro El Rápido cargó un trabajo", "Cambio de aceite y filtros · 87.450 km"]
+    ]
+   },
+   "say": "Y te llega el aviso al celular, antes de que el auto empiece a quejarse."
+  },
+  {
+   "type": "cta",
+   "dur": 4.4,
+   "title": "Que te avise *Libreta*,\nno el ruidito",
+   "say": "Que te avise Libreta, no el ruidito. Entrá gratis a libretaapp.com."
+  }
+ ]
+}
