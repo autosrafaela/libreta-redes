@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-07",
+  "theme": "vacaciones-ruta",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "Faltan dos meses", "title": "La lista de las *vacaciones*", "sub": "Reposera, conservadora, el mate… ¿y el auto?" },
+    { "type": "list", "mark": "check", "title": "Lo que *nunca* falta", "items": [
+      { "t": "La reposera" },
+      { "t": "La conservadora llena" },
+      { "t": "El equipo de mate completo" },
+      { "t": "La sombrilla que no cierra" } ] },
+    { "type": "list", "mark": "x", "title": "Lo que *siempre* se olvida", "items": [
+      { "t": "Los frenos", "d": "Hasta que hacen ruido en plena ruta" },
+      { "t": "Las cubiertas", "d": "Y la de auxilio, desinflada" },
+      { "t": "Las luces", "d": "Una quemada y te paran" },
+      { "t": "La VTV y el seguro", "d": "Vencidos justo en enero" } ] },
+    { "type": "phone", "title": "Libreta te avisa *antes*", "sub": "VTV, seguro, patente y licencia: te llega al celular antes de que venzan.", "screen": { "kind": "vencimientos" } },
+    { "type": "phone", "title": "Y sabés qué le *toca* al auto", "sub": "Aceite, filtros, alineación y cubiertas, según los km y el tiempo.", "screen": { "kind": "mantenimiento" } },
+    { "type": "cta", "title": "Que lo único que se rompa sea la *dieta*", "sub": "Cargá tu auto hoy y salí tranquilo en enero." }
+  ]
+}
