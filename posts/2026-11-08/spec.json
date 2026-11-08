@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-08",
+  "theme": "informe-comprador",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.6,
+      "kicker": "Vendiendo el auto",
+      "title": "—¿Y los services?\n—*Acá tengo una bolsa*",
+      "say": "Vendés el auto, te preguntan por los services... y sacás una bolsa de tickets."
+    },
+    {
+      "type": "list",
+      "dur": 5.0,
+      "mark": "x",
+      "kicker": "Lo que hay en la bolsa",
+      "title": "Adentro hay *de todo*",
+      "items": [
+        {"t": "Un ticket *borrado*"},
+        {"t": "Una factura *sin patente*"},
+        {"t": "La boleta de *la pizza*"}
+      ],
+      "say": "Un ticket borrado, una factura sin patente... y la boleta de una pizza."
+    },
+    {
+      "type": "quote",
+      "dur": 3.8,
+      "text": "El que compra *no le cree* a la bolsa.\nLe cree *al historial*.",
+      "say": "Y el que compra no le cree a la bolsa. Le cree al historial."
+    },
+    {
+      "type": "phone",
+      "dur": 5.4,
+      "title": "Mandale el *informe*\ncon un link",
+      "screen": {
+        "kind": "informe",
+        "items": [
+          "Trabajos cargados por los talleres",
+          "Km que solo van para adelante",
+          "Fecha y km de cada service",
+          "VTV y patente al día"
+        ]
+      },
+      "say": "Con Libreta le mandás al comprador un informe con un link: cada trabajo cargado por el taller, con fecha y kilómetros."
+    },
+    {
+      "type": "cta",
+      "dur": 4.6,
+      "title": "Tirá la bolsa.\n*Mandá el link*",
+      "say": "Tirá la bolsa y mandá el link. Entrá gratis a libretaapp.com."
+    }
+  ]
+}
