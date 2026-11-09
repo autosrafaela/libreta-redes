@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-09",
+  "theme": "directorio-talleres",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "En el grupo de la familia", "title": "“¿Alguien conoce un *buen mecánico*?”", "sub": "Y en dos minutos tenés catorce respuestas distintas." },
+    { "type": "list", "mark": "x", "title": "Lo que te *contestan*", "items": [
+      { "t": "“El de mi cuñado, pero cobra caro”" },
+      { "t": "“Uno por el centro, no me acuerdo el nombre”" },
+      { "t": "“Andá a lo de… ah no, *ese cerró*”" },
+      { "t": "Un sticker y un audio de 3 minutos" } ] },
+    { "type": "phone", "title": "Talleres que *firman* su trabajo", "sub": "Buscás por rubro y por ciudad: mecánica, gomería, lubricentro y más.",
+      "screen": { "kind": "captura", "src": "posts/2026-11-09/captura-directorio.png", "top": 0 } },
+    { "type": "phone", "title": "Opiniones de *clientes reales*", "sub": "Solo opina quien tuvo un trabajo cargado. (Datos de ejemplo)",
+      "screen": { "kind": "captura", "src": "posts/2026-11-09/captura-perfil.png", "top": 0 } },
+    { "type": "list", "mark": "check", "title": "Antes de *llevar el auto*", "items": [
+      { "t": "Fijate si tiene *tilde azul*", "d": "Libreta revisó su CUIT o DNI y el local" },
+      { "t": "Leé las opiniones", "d": "De clientes con un trabajo real" },
+      { "t": "Mirá qué es lo que más hace", "d": "Frenos, aceite, alineación…" } ] },
+    { "type": "cta", "title": "Que el grupo de la familia *descanse*", "sub": "Encontrá talleres verificados de tu ciudad." }
+  ]
+}
