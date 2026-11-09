@@ -309,5 +309,19 @@
   ],
   "lugar": "En la oficina de mandatario, con una carpeta de papeles de un auto en la mano (o al lado de una bici, si tenés una a mano)",
   "hora": "18:00"
+ },
+ {
+  "fecha": "2026-11-09",
+  "tema": "aceite-cuando",
+  "gancho": "—¿Cuándo le cambiaste el aceite al auto? —Hace poco. Y “hace poco”, cuando te ponés a buscar el papelito, son dos años.",
+  "guion": "—¿Cuándo le cambiaste el aceite al auto? —Hace poco. Y “hace poco”, cuando te ponés a buscar el papelito, son dos años. Pasa muchísimo, y no es culpa tuya: nadie se acuerda. En Libreta el taller carga el cambio con la fecha y los kilómetros, y la app te avisa cuando te toca el próximo. Vos solo manejás. A ver, decime la verdad: ¿cuándo le cambiaste el aceite al tuyo? Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "“Hace poco” = hace dos años 😅🛢️\nNadie se acuerda cuándo le cambió el aceite al auto.\nEn Libreta el taller lo carga con fecha y km, y la app te avisa cuando te toca el próximo ✅\n¿Cuándo le cambiaste el aceite al tuyo? Decí la verdad 👇\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Autos #Mecanica #CambioDeAceite #Libreta",
+  "pantalla": [
+   "“HACE POCO”",
+   "= HACE 2 AÑOS",
+   "TE AVISA CUÁNDO TOCA"
+  ],
+  "lugar": "Al lado del auto con el capó abierto, o en la vereda de un lubricentro",
+  "hora": "16:00"
  }
 ]
