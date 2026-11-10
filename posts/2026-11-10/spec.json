@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-10",
+  "theme": "a-quien-llamar",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Para talleres",
+      "title": "Tu cliente vuelve…\n*cuando ya humea*",
+      "say": "¿Tu cliente vuelve al taller recién cuando el auto ya está humeando?"
+    },
+    {
+      "type": "list",
+      "dur": 5.4,
+      "mark": "x",
+      "kicker": "No es que no te quiera",
+      "title": "Es que *se olvidó*",
+      "items": [
+        {"t": "Del *service*"},
+        {"t": "Del *papelito* con los km"},
+        {"t": "De *tu teléfono*"}
+      ],
+      "say": "No es que no te quiera. Se olvidó del service, perdió el papelito con los kilómetros... y no tiene tu teléfono."
+    },
+    {
+      "type": "list",
+      "dur": 5.6,
+      "mark": "check",
+      "kicker": "Con Libreta",
+      "title": "La app te dice\n*a quién llamar*",
+      "items": [
+        {"t": "*AB 123 CD* · Gol Trend", "d": "Le toca el service"},
+        {"t": "*AC 456 FG* · Corsa", "d": "Le toca cambiar los filtros"},
+        {"t": "*AD 789 HJ* · 208", "d": "Le toca alinear y balancear"}
+      ],
+      "say": "Con Libreta, la app te dice a qué cliente le toca el próximo service, según lo que cargaste vos."
+    },
+    {
+      "type": "quote",
+      "dur": 4.2,
+      "text": "Lo llamás vos, *antes*.\nY vuelve a *tu taller*.",
+      "say": "Lo llamás vos, antes de que se rompa. Y el auto vuelve a tu taller, no al de la esquina."
+    },
+    {
+      "type": "cta",
+      "dur": 4.6,
+      "title": "Que vuelva por el service,\n*no en grúa*",
+      "pill": "Gratis para talleres",
+      "say": "Que vuelva por el service, no en grúa. Entrá gratis a libretaapp.com."
+    }
+  ]
+}
