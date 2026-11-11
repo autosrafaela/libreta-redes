@@ -1,0 +1,12 @@
+{
+  "id": "2026-11-11",
+  "theme": "valor-reventa",
+  "format": "image",
+  "slides": [
+    {"type": "list", "kicker": "Mismo año, mismo modelo, mismo precio", "mark": "num", "title": "Tres usados iguales. ¿Cuál *comprás*?", "items": [
+      {"t": "“Los services, todos al día. Confiá en mí.”", "d": "Ni un papel"},
+      {"t": "“El mecánico es amigo, preguntale a él”", "d": "Y el amigo no atiende"},
+      {"t": "El que te manda el *historial* con un link", "d": "Cada service cargado por el taller, con km y fecha"}
+    ]}
+  ]
+}

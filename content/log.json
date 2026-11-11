@@ -334,5 +334,19 @@
     ],
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=3299950736954836909",
     "notes": "Reel (posteo #24 de la rotación) con voz en off, ángulo talleres con humor (el único de talleres en lo que va de la semana): el cliente que vuelve cuando el auto humea, porque se olvidó del service/papelito/teléfono, vs. la app que te dice a qué cliente le toca el próximo service. 5 escenas / 24,4 s. Martes: Metricool da 21 h como la mejor franja nocturna → 21:12 (dentro de 19–21 h según ajuste semanal). Programado OK en las 3 redes (id 423116258)."
+  },
+  {
+    "id": "2026-11-11",
+    "theme": "valor-reventa",
+    "format": "image",
+    "hook": "Tres usados iguales. ¿Cuál comprás?",
+    "scheduled_at": "2026-11-11T21:12:00-03:00",
+    "networks": [
+      "instagram",
+      "facebook",
+      "tiktok"
+    ],
+    "planner_url": "",
+    "notes": "Imagen (posteo #25 de la rotación), ángulo dueño con humor: tres vendedores del mismo usado ('confiá en mí', 'preguntale al mecánico amigo', el historial con un link) + pregunta para comentar 1, 2 o 3 en el caption, según ajuste semanal. Miércoles: Metricool da 21 h como la mejor franja nocturna (1949 vs 1923 a las 20) → 21:12."
   }
 ]
