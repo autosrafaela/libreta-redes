@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-12",
+  "theme": "vencimientos",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "Sin mirar ningún papel", "title": "¿Sabés cuándo te *vence*…?", "sub": "Cuatro fechas. Contá cuántas sabés de memoria." },
+    { "type": "list", "mark": "num", "title": "Las 4 *fechas*", "items": [
+      { "t": "La VTV" },
+      { "t": "El seguro" },
+      { "t": "Tu licencia de conducir" },
+      { "t": "La carga del matafuegos" } ] },
+    { "type": "quote", "text": "“La VTV… ¿en marzo? No, pará… eso era el año pasado.”", "by": "Todos, alguna vez" },
+    { "type": "phone", "title": "Libreta se las *acuerda*", "sub": "VTV, seguro, patente, licencia y matafuegos: todo en un solo lugar.", "screen": { "kind": "vencimientos" } },
+    { "type": "phone", "title": "Y te avisa *antes*", "sub": "Al celular y por email, con tiempo para hacer el trámite.", "screen": { "kind": "aviso" } },
+    { "type": "cta", "title": "Que las fechas las sepa *el celular*", "sub": "Gratis para dueños de autos y motos. Sin tarjeta." }
+  ]
+}
