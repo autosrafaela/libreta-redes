@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-13",
+  "theme": "presupuesto-whatsapp",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Para talleres",
+      "title": "—Yo eso\n*no te lo pedí*",
+      "say": "Le hacés los frenos, viene a buscar el auto y te dice: yo eso no te lo pedí."
+    },
+    {
+      "type": "list",
+      "dur": 5.4,
+      "mark": "x",
+      "kicker": "El presupuesto de palabra",
+      "title": "Así *empieza la discusión*",
+      "items": [
+        {"t": "Se lo pasaste *por teléfono*"},
+        {"t": "Entendió *otro número*"},
+        {"t": "Y se arregla *en el mostrador*"}
+      ],
+      "say": "Se lo pasaste por teléfono, entendió otro número, y la discusión termina en el mostrador."
+    },
+    {
+      "type": "phone",
+      "dur": 4.8,
+      "title": "Armás el presupuesto\n*en la app*",
+      "sub": "Repuestos, mano de obra y total.",
+      "screen": {"kind": "captura", "src": "posts/2026-11-13/captura-presupuesto-taller.png", "top": 0},
+      "say": "Con Libreta armás el presupuesto en la app: repuestos, mano de obra y el total."
+    },
+    {
+      "type": "phone",
+      "dur": 5.0,
+      "title": "Le llega *por WhatsApp*",
+      "sub": "Lo aprueba o lo rechaza con un toque.",
+      "screen": {"kind": "captura", "src": "posts/2026-11-13/captura-presupuesto-cliente.png", "top": 0},
+      "say": "Se lo mandás por WhatsApp, y el cliente lo aprueba o lo rechaza con un toque."
+    },
+    {
+      "type": "quote",
+      "dur": 4.2,
+      "text": "Lo aprobó *antes*.\nNo hay nada *que discutir*.",
+      "say": "Lo aprobó antes de que toques nada. No hay nada que discutir."
+    },
+    {
+      "type": "cta",
+      "dur": 4.4,
+      "title": "Presupuesto aprobado,\n*cero discusión*",
+      "pill": "Gratis para talleres",
+      "say": "Presupuesto aprobado, cero discusión. Entrá gratis a libretaapp.com."
+    }
+  ]
+}
