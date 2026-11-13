@@ -365,5 +365,19 @@
   ],
   "lugar": "En la oficina, con el celular en la mano mostrando el chat lleno de fotos (una sola toma)",
   "hora_sugerida": "16:00"
+ },
+ {
+  "fecha": "2026-11-13",
+  "tema": "valor-reventa",
+  "gancho": "¿Por qué dos autos iguales, mismo año y modelo, se venden a precios distintos?",
+  "guion": "¿Por qué dos autos iguales, mismo año y mismo modelo, se venden a precios distintos? Yo lo veo todos los días: el que tiene el historial a la vista se vende más rápido y más caro. Pasa mucho que el vendedor sabe que lo cuidó, pero no lo puede demostrar. Con Libreta, cada service lo cargó el taller, con los kilómetros, y no se puede borrar. Al comprador le mandás un link y listo: ahí está todo. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "Dos autos iguales, precios distintos 🚗💸 ¿Por qué?\nEl que tiene el historial a la vista se vende más rápido y mejor. Con Libreta cada service lo carga el taller y no se borra: al comprador le pasás todo con un link.\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Autos #Usados #VentaDeAutos #Libreta #Santafe",
+  "pantalla": [
+   "MISMO AUTO",
+   "DISTINTO PRECIO",
+   "libretaapp.com"
+  ],
+  "lugar": "En la oficina o al lado de un auto, celular en mano mostrando el historial (una sola toma)",
+  "hora_sugerida": "15:00"
  }
 ]
