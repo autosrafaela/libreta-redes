@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-14",
+  "theme": "empezar-de-cero",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "Compraste un usado", "title": "—¿Y los papeles del *service*?", "sub": "—Uh… los tenía el dueño anterior." },
+    { "type": "list", "mark": "x", "title": "Lo que *no sabés*", "items": [
+      { "t": "Cuándo le cambiaron el aceite" },
+      { "t": "Si los filtros se tocaron alguna vez" },
+      { "t": "Cuándo lo alinearon" },
+      { "t": "Qué le hicieron en los frenos" } ] },
+    { "type": "quote", "text": "“Tranqui, el aceite se lo cambié hace poco.”", "by": "El dueño anterior (hace poco = ni idea)" },
+    { "type": "phone", "title": "El *primer service* arranca la historia", "sub": "Lo carga tu taller en Libreta con fecha y km. No se borra.", "screen": { "kind": "historial", "km": "102.300 km", "items": [["14/11/2026","Taller Don Pepe","Service completo: aceite, filtros y revisión","102.300 km"]] } },
+    { "type": "phone", "title": "Y desde ahí te avisa *qué toca*", "sub": "Aceite, filtros, alineación y cubiertas, según km y tiempo.", "screen": { "kind": "mantenimiento", "km": "102.300 km", "items": [["Alineación y balanceo","le toca ahora",100,"bad"],["Rotar cubiertas","en 1.500 km",85,"soon"],["Aceite y filtros","en 10.000 km",5,"ok"],["Pastillas de freno","en 8.000 km",30,"ok"]] } },
+    { "type": "cta", "title": "La historia que no te dieron, *empezala vos*", "sub": "Gratis para dueños de autos y motos. Sin tarjeta." }
+  ]
+}
