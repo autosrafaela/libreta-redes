@@ -379,5 +379,19 @@
   ],
   "lugar": "En la oficina o al lado de un auto, celular en mano mostrando el historial (una sola toma)",
   "hora_sugerida": "15:00"
+ },
+ {
+  "fecha": "2026-11-14",
+  "tema": "es-gratis",
+  "gancho": "Cada vez que cuento que Libreta es gratis, me miran como si les estuviera vendiendo un auto sin motor.",
+  "guion": "Cada vez que cuento que Libreta es gratis, me miran como si les estuviera vendiendo un auto sin motor. —¿Gratis? ¿Y cuál es la trampa? No hay trampa. Cargás tu auto o tu moto con la patente, los trabajos los cargan los talleres, y la app te avisa la VTV, el seguro y cuándo le toca el aceite. Para los talleres, también gratis. Sin tarjeta. La única trampa es que después no vas a querer volver al papelito. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "—¿Gratis? ¿Y cuál es la trampa? 🤔\nNo hay. Libreta es gratis para dueños de autos y motos, y también para talleres. Sin tarjeta.\nVencimientos, historial y avisos de mantenimiento en el celular ✅\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Autos #Motos #Libreta #Taller",
+  "pantalla": [
+   "¿Y LA TRAMPA?",
+   "GRATIS · SIN TARJETA",
+   "libretaapp.com"
+  ],
+  "lugar": "En la oficina o apoyado en el auto, una sola toma; en el gancho, cara de desconfianza imitando al otro",
+  "hora_sugerida": "15:00"
  }
 ]
