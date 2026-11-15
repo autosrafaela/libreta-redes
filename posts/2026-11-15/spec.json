@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-15",
+  "theme": "multa-vtv",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Control en la ruta",
+      "title": "—Los papeles, por favor.\n—*Uh…*",
+      "say": "Te para el control, le das los papeles… y la VTV venció hace meses."
+    },
+    {
+      "type": "list",
+      "dur": 4.6,
+      "mark": "x",
+      "kicker": "Lo que viene después",
+      "title": "Y ahí arranca *el día*",
+      "items": [
+        {"t": "Una *multa*"},
+        {"t": "La tarde *perdida*"},
+        {"t": "El *mal humor* hasta la noche"}
+      ],
+      "say": "Y ahí viene la multa, la tarde perdida y el mal humor hasta la noche."
+    },
+    {
+      "type": "quote",
+      "dur": 3.4,
+      "text": "La VTV *no te avisa*.\nLibreta *sí*.",
+      "say": "La VTV no te avisa cuando vence. Libreta sí."
+    },
+    {
+      "type": "phone",
+      "dur": 5.4,
+      "title": "Te avisa *antes*\nde que venza",
+      "screen": {
+        "kind": "aviso",
+        "items": [
+          ["Tu VTV vence en 7 días", "AB 123 CD · Sacá turno antes del 22/11"],
+          ["La patente vence en 5 días", "AB 123 CD · Pagala antes del 20/11"],
+          ["Tu seguro vence en 10 días", "AB 123 CD · Renovalo antes del 25/11"]
+        ]
+      },
+      "say": "Te llega un aviso al celular antes de que venza la VTV, la patente, el seguro, la licencia o el matafuegos."
+    },
+    {
+      "type": "phone",
+      "dur": 4.2,
+      "title": "Todas tus fechas\n*en un lugar*",
+      "screen": {
+        "kind": "vencimientos",
+        "items": [
+          ["VTV", "22/11/2026", "soon", "en 7 días"],
+          ["Seguro", "25/11/2026", "soon", "en 10 días"],
+          ["Patente", "20/11/2026", "soon", "en 5 días"],
+          ["Licencia", "22/08/2029", "ok", "al día"],
+          ["Matafuegos", "15/01/2027", "ok", "al día"]
+        ]
+      },
+      "say": "Y ves todas tus fechas juntas, en un solo lugar."
+    },
+    {
+      "type": "cta",
+      "dur": 4.6,
+      "title": "Que te pare el control.\n*Tranqui*",
+      "say": "Que te pare el control, y vos tranqui. Entrá gratis a libretaapp.com."
+    }
+  ]
+}
