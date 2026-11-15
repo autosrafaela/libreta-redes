@@ -393,5 +393,19 @@
   ],
   "lugar": "En la oficina o apoyado en el auto, una sola toma; en el gancho, cara de desconfianza imitando al otro",
   "hora_sugerida": "15:00"
+ },
+ {
+  "fecha": "2026-11-15",
+  "tema": "vencimientos",
+  "gancho": "Me pasa seguido en la oficina: viene alguien a vender el auto, todo lindo… y aparece deuda de patente.",
+  "guion": "Me pasa seguido en la oficina: viene alguien a vender el auto, todo lindo… y aparece deuda de patente. —¿Cómo? ¡Si yo la pagaba! La pagaba… hasta que se olvidó. Y ahí se frena todo. Por eso uso Libreta: cargás tu auto o tu moto con la patente y te avisa al celular antes de que venzan la patente, la VTV, el seguro y la licencia. Así, el día que vendés, no hay sorpresas. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "—¿Deuda de patente? ¡Si yo la pagaba! 🤦‍♂️\nPasa más de lo que creés, y siempre te enterás el día que vendés.\nLibreta te avisa antes de que venzan la patente, la VTV, el seguro y la licencia 📅✅\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Autos #Motos #Patente #Libreta",
+  "pantalla": [
+   "¿DEUDA DE PATENTE?",
+   "TE AVISA ANTES",
+   "libretaapp.com"
+  ],
+  "lugar": "En la oficina, detrás del escritorio con carpetas de trámites; una sola toma, en el '¡si yo la pagaba!' imitá al cliente indignado",
+  "hora_sugerida": "15:00"
  }
 ]
