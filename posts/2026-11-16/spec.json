@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-16",
+  "theme": "comprar-usado",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "Vas a ver un usado", "title": "¿Qué le pedís *primero*?", "sub": "1, 2 o 3. Contestá antes de pasar." },
+    { "type": "list", "mark": "num", "title": "Elegí *una*", "items": [
+      { "t": "Dar una vuelta a la manzana" },
+      { "t": "El informe de dominio", "d": "Deudas y prendas" },
+      { "t": "El historial de services" } ] },
+    { "type": "quote", "text": "“¿Para qué tanto papel? Si se ve impecable.”", "by": "El que señó sin preguntar nada" },
+    { "type": "list", "mark": "check", "title": "La respuesta: *las tres*", "items": [
+      { "t": "La vuelta", "d": "Cómo anda hoy" },
+      { "t": "El informe", "d": "Si tiene deudas o prendas" },
+      { "t": "El historial", "d": "Cómo lo cuidaron antes" } ] },
+    { "type": "phone", "title": "El historial, *en un link*", "sub": "En Libreta lo cargan los talleres, con fecha y km. No se borra.", "screen": { "kind": "informe" } },
+    { "type": "cta", "title": "Pedile *el link de Libreta*", "sub": "Gratis para dueños de autos y motos. Sin tarjeta." }
+  ]
+}
