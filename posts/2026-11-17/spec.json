@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-17",
+  "theme": "recepcion-fotos",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Para talleres",
+      "title": "¿Ese rayón\n*estaba*?",
+      "say": "¿Ese rayón estaba cuando trajo el auto? Él dice que no. Vos, que sí."
+    },
+    {
+      "type": "phone",
+      "dur": 4.4,
+      "title": "Recibís el auto\n*con km y nafta*",
+      "sub": "Y anotás qué pidió el cliente.",
+      "screen": {"kind": "captura", "src": "posts/2026-11-17/captura-recepcion.png", "top": 0},
+      "say": "Con Libreta, cuando recibís el auto anotás los kilómetros, la nafta y qué pidió."
+    },
+    {
+      "type": "phone",
+      "dur": 4.4,
+      "title": "Cómo vino,\n*con fotos*",
+      "sub": "Y se lo mandás por WhatsApp.",
+      "screen": {"kind": "captura", "src": "posts/2026-11-17/captura-fotos.png", "top": 0},
+      "say": "Anotás cómo vino, le sacás fotos y se lo mandás por WhatsApp."
+    },
+    {
+      "type": "quote",
+      "dur": 4.2,
+      "text": "El cliente lo *confirma*.\nNadie discute *el rayón*.",
+      "say": "El cliente lo confirma desde su celular. Y después nadie discute el rayón."
+    },
+    {
+      "type": "cta",
+      "dur": 4.0,
+      "title": "Que las fotos\n*hablen por vos*",
+      "pill": "Gratis para talleres",
+      "say": "Que las fotos hablen por vos. Entrá gratis a libretaapp.com."
+    }
+  ]
+}
