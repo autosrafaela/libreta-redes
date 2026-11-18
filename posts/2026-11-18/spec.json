@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-18",
+  "theme": "kit-ruta",
+  "format": "image",
+  "slides": [
+    {"type": "list", "kicker": "Sin bajarte a mirar: del 0 al 4", "mark": "check", "title": "¿Cuántas de estas *tenés* en el auto?", "items": [
+      {"t": "Matafuegos", "d": "Y con la carga al día, ¿eh?"},
+      {"t": "Las dos balizas", "d": "Una sola no cuenta"},
+      {"t": "Botiquín", "d": "Con algo adentro, no la caja vacía"},
+      {"t": "Chaleco reflectivo", "d": "Libreta te arma el *checklist* y te avisa antes de que venza el matafuegos"}
+    ]}
+  ]
+}
