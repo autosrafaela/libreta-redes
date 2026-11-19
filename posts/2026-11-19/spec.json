@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-19",
+  "theme": "tu-mecanico",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "Contestá rápido", "title": "¿Quién se acuerda de tu *último service*?", "sub": "1, 2 o 3. Antes de pasar." },
+    { "type": "list", "mark": "num", "title": "Elegí *una*", "items": [
+      { "t": "Vos", "d": "“Y… hace poco”" },
+      { "t": "Tu mecánico", "d": "Si encuentra el cuaderno" },
+      { "t": "El sticker del parabrisas", "d": "Si el sol no lo borró" } ] },
+    { "type": "quote", "text": "“¿El aceite? Hace poco. ¿Seis meses? ¿Un año? Más o menos.”", "by": "Todos, alguna vez" },
+    { "type": "list", "mark": "check", "title": "Que se acuerde *Libreta*", "items": [
+      { "t": "Tu mecánico lo carga", "d": "Con fecha y km, en segundos" },
+      { "t": "Queda en tu patente", "d": "No se borra ni se edita" },
+      { "t": "Te avisa el próximo", "d": "Según km y tiempo" } ] },
+    { "type": "phone", "title": "Todo en *tu celular*", "sub": "Cada trabajo con el taller que lo hizo.", "screen": { "kind": "historial" } },
+    { "type": "cta", "title": "Pedile a tu mecánico *que lo cargue*", "sub": "Vos tenés el historial. Él, su trabajo firmado." }
+  ]
+}
