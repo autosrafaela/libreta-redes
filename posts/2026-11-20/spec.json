@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-20",
+  "theme": "numeros-taller",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Para talleres",
+      "title": "¿Cuánto\n*te deben*?",
+      "say": "¿Cuánto te deben tus clientes? Si lo tenés que pensar, mirá esto."
+    },
+    {
+      "type": "phone",
+      "dur": 4.6,
+      "title": "Tus números,\n*en una pantalla*",
+      "sub": "Montos de ejemplo.",
+      "screen": {"kind": "captura", "src": "posts/2026-11-20/captura-numeros.png", "top": 0},
+      "say": "Con Libreta ves cuánto facturaste, cuánto cobraste y cuánto te deben."
+    },
+    {
+      "type": "phone",
+      "dur": 4.4,
+      "title": "Lo que *más hacés*",
+      "sub": "Y quién no volvió.",
+      "screen": {"kind": "captura", "src": "posts/2026-11-20/captura-recuperar.png", "top": 0},
+      "say": "También lo que más hacés, y los clientes que hace meses no vuelven."
+    },
+    {
+      "type": "quote",
+      "dur": 4.2,
+      "text": "Sale de *tus órdenes*.\nSin *cuaderno*.",
+      "say": "Todo sale de las órdenes que ya cargás. Sin cuaderno ni planilla."
+    },
+    {
+      "type": "cta",
+      "dur": 4.0,
+      "title": "Sabé dónde\n*está tu plata*",
+      "pill": "Gratis para talleres",
+      "say": "Sabé dónde está tu plata. Entrá gratis a libretaapp.com."
+    }
+  ]
+}
