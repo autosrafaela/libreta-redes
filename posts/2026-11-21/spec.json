@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-21",
+  "theme": "cubiertas",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "Contestá rápido", "title": "¿Cuándo rotaste *las cubiertas*?", "sub": "1, 2 o 3. Antes de pasar." },
+    { "type": "list", "mark": "num", "title": "Elegí *una*", "items": [
+      { "t": "Hace poco", "d": "“Creo… ¿o era el aceite?”" },
+      { "t": "Nunca", "d": "“¿Las cubiertas se rotan?”" },
+      { "t": "Cuando me dijo el gomero", "d": "Hace un par de veranos" } ] },
+    { "type": "list", "mark": "x", "kicker": "Señales", "title": "Tu auto *te está avisando*", "items": [
+      { "t": "Tira para un costado" },
+      { "t": "El volante *vibra*" },
+      { "t": "Se gastan *de un lado*" } ] },
+    { "type": "list", "mark": "check", "title": "Que se acuerde *Libreta*", "items": [
+      { "t": "Tu gomero carga el trabajo", "d": "Con fecha y km, en segundos" },
+      { "t": "Queda en tu patente", "d": "No se borra ni se edita" },
+      { "t": "Te avisa cuándo toca", "d": "Rotar, alinear y balancear" } ] },
+    { "type": "phone", "title": "Antes de *la ruta*", "sub": "Mirá qué le toca a tu auto.", "screen": { "kind": "mantenimiento", "items": [
+      ["Rotar cubiertas", "le toca ahora", 100, "bad"],
+      ["Alineación y balanceo", "en 1.500 km", 80, "soon"],
+      ["Aceite y filtros", "en 5.800 km", 40, "ok"],
+      ["Frenos", "en 11.000 km", 30, "ok"] ] } },
+    { "type": "cta", "title": "Que no te avise *el volante*", "sub": "Las vacaciones están cerca. Tus cubiertas, al día." }
+  ]
+}
