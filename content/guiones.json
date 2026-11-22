@@ -491,5 +491,19 @@
   ],
   "lugar": "En la oficina, con las llaves del auto y la oblea/papeles de la VTV en la mano; una sola toma de 20–25 s.",
   "hora_sugerida": "13:00"
+ },
+ {
+  "fecha": "2026-11-22",
+  "tema": "comprar-usado",
+  "gancho": "Antes de señar un usado, pedí una sola cosa. Y no es la cédula.",
+  "guion": "Antes de señar un usado, pedí una sola cosa. Y no es la cédula. En la oficina veo todo el tiempo gente que ya pagó la seña y recién ahí pregunta por los services. Y la respuesta siempre es: \"Sí, todo hecho\". Pedí el historial. En Libreta lo cargan los talleres, no el dueño: no se puede borrar y los kilómetros solo van para adelante. Si el vendedor te manda el link, sabés qué estás comprando. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "Antes de señar un usado, pedí esto 👇\nNo alcanza con un \"sí, todo hecho\" 🚗\nEn Libreta el historial lo cargan los talleres: no se borra y los km solo van para adelante ✅\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Autos #Usados #CompraVenta #Mandatario #Libreta",
+  "pantalla": [
+   "¿ANTES DE SEÑAR?",
+   "PEDÍ EL HISTORIAL",
+   "libretaapp.com"
+  ],
+  "lugar": "En la oficina, con una carpeta de transferencia o una cédula en la mano; una sola toma de 20–25 s.",
+  "hora_sugerida": "13:00"
  }
 ]
