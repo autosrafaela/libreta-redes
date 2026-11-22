@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-22",
+  "theme": "aceite-cuando",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Rápido",
+      "title": "¿Cuándo cambiaste\n*el aceite*?",
+      "say": "¿Cuándo le cambiaste el aceite al auto? Si tuviste que pensarlo, mirá esto."
+    },
+    {
+      "type": "list",
+      "dur": 4.6,
+      "mark": "num",
+      "kicker": "La regla",
+      "title": "Lo que *llegue primero*",
+      "items": [
+        {"t": "Los *km* que pide el manual"},
+        {"t": "O el *tiempo*, aunque lo uses poco"}
+      ],
+      "say": "El aceite se cambia por kilómetros o por tiempo, lo que llegue primero. Aunque uses poco el auto."
+    },
+    {
+      "type": "phone",
+      "dur": 4.2,
+      "title": "Tu mecánico\n*lo carga*",
+      "screen": {"kind": "trabajo"},
+      "say": "Tu mecánico carga el cambio en Libreta, con los kilómetros y la fecha."
+    },
+    {
+      "type": "phone",
+      "dur": 4.2,
+      "title": "Y te *avisa*\ncuando toca",
+      "screen": {
+        "kind": "aviso",
+        "items": [
+          ["Le toca el cambio de aceite", "AB 123 CD · van ~10.000 km del último"],
+          ["Lubricentro El Rápido cargó un trabajo", "Cambio de aceite y filtros · 87.450 km"]
+        ]
+      },
+      "say": "Y Libreta te avisa al celular cuando te toca el próximo."
+    },
+    {
+      "type": "cta",
+      "dur": 3.8,
+      "title": "Que se acuerde\n*Libreta*",
+      "pill": "Gratis, sin tarjeta",
+      "say": "Que se acuerde Libreta. Entrá gratis a libretaapp.com."
+    }
+  ]
+}
