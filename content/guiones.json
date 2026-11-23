@@ -505,5 +505,19 @@
   ],
   "lugar": "En la oficina, con una carpeta de transferencia o una cédula en la mano; una sola toma de 20–25 s.",
   "hora_sugerida": "13:00"
+ },
+ {
+  "fecha": "2026-11-23",
+  "tema": "km-reales",
+  "gancho": "¿Un auto de diez años con poquitos kilómetros? Mmm…",
+  "guion": "¿Un auto de diez años con poquitos kilómetros? Mmm… En las transferencias pasa mucho, y el que compra no tiene cómo saber si es verdad. En Libreta, cada vez que un taller le hace algo al auto, carga los kilómetros. Y los kilómetros solo van para adelante: no se pueden bajar ni borrar. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "¿Un auto de diez años con poquitos km? 🤔\nAntes de comprar, mirá el historial 🚗\nEn Libreta los km los cargan los talleres y solo van para adelante: no se bajan ni se borran ✅\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Autos #Usados #Kilometraje #Mandatario #Libreta",
+  "pantalla": [
+   "¿POQUITOS KM?",
+   "SOLO VAN PARA ADELANTE",
+   "libretaapp.com"
+  ],
+  "lugar": "En la oficina o al lado de un auto, mostrando el tablero; una sola toma de 15–20 s.",
+  "hora_sugerida": "13:00"
  }
 ]
