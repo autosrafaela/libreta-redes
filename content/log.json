@@ -502,5 +502,19 @@
   ],
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=1399632914057742532",
   "notes": "Reel (posteo #36 = inicio del ciclo) con voz en off, ángulo dueño: el aceite se cambia por km o por tiempo, lo que llegue primero; el mecánico lo carga y Libreta avisa. 5 escenas / 21,9 s (ajuste semanal: reels cortos, gancho-pregunta). Domingo: Metricool da 12 h (1849) apenas arriba de 19 h (1782) → 19:12 según ajuste semanal (19–21 h). Programado OK en las 3 redes (id 437535587) a las 19:12."
+ },
+ {
+  "id": "2026-11-23",
+  "theme": "mitos",
+  "format": "carousel",
+  "hook": "¿Verdadero o falso? Hay que calentar el motor 10 minutos",
+  "scheduled_at": "2026-11-23T20:12:00-03:00",
+  "networks": [
+   "instagram",
+   "facebook",
+   "tiktok"
+  ],
+  "planner_url": null,
+  "notes": "Carrusel (posteo #37 de la rotación), ángulo dueño con participación de una letra (V o F, ajuste del resumen del 23/11): calentar el motor, nafta premium, aceite por km o tiempo. 6 láminas. Lunes: Metricool sin un pico claro para la noche → 20:12 como los lunes anteriores."
  }
 ]

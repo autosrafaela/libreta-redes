@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-23",
+  "theme": "mitos",
+  "format": "carousel",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "¿Verdadero o falso?",
+      "title": "Hay que calentar el motor *10 minutos*",
+      "sub": "Contestá V o F antes de pasar."
+    },
+    {
+      "type": "list",
+      "mark": "check",
+      "kicker": "Falso",
+      "title": "Ni 10 minutos *ni parado*",
+      "items": [
+        {
+          "t": "Arrancás y esperás un ratito",
+          "d": "Unos segundos alcanzan"
+        },
+        {
+          "t": "Salís despacio",
+          "d": "Se calienta andando, sin exigirlo"
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "kicker": "¿Verdadero o falso?",
+      "title": "La premium *siempre rinde más*",
+      "sub": "V o F."
+    },
+    {
+      "type": "list",
+      "mark": "num",
+      "kicker": "Falso",
+      "title": "Depende de *tu auto*",
+      "items": [
+        {
+          "t": "Si tu auto no la pide",
+          "d": "No vas a notar la diferencia"
+        },
+        {
+          "t": "Si la pide, usala",
+          "d": "Fijate en el manual o en la tapa del tanque"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "mark": "check",
+      "kicker": "Verdadero",
+      "title": "El aceite va por km *o por tiempo*",
+      "items": [
+        {
+          "t": "Lo que llegue primero",
+          "d": "Aunque lo uses poco, también vence"
+        },
+        {
+          "t": "Libreta te avisa",
+          "d": "Según los km y la fecha del último cambio"
+        },
+        {
+          "t": "Lo carga tu mecánico",
+          "d": "Queda en tu patente, no se borra"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Menos mitos, *más historial*",
+      "sub": "Tu auto al día, sin acordarte de nada."
+    }
+  ]
+}
