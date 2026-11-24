@@ -519,5 +519,19 @@
   ],
   "lugar": "En la oficina o al lado de un auto, mostrando el tablero; una sola toma de 15–20 s.",
   "hora_sugerida": "13:00"
+ },
+ {
+  "fecha": "2026-11-24",
+  "tema": "vacaciones-ruta",
+  "gancho": "Se vienen las vacaciones y siempre pasa lo mismo…",
+  "guion": "Se vienen las vacaciones y siempre pasa lo mismo: alguien sale a la ruta con la VTV o el seguro vencido y se entera en el control. Libreta te avisa al celular antes de que venzan, y te arma el checklist de balizas, matafuegos y botiquín. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "Antes de salir a la ruta, fijate esto 🚗\nVTV, seguro, licencia y matafuegos: ¿sabés cuándo vencen? 📅\nLibreta te avisa al celular antes, y te arma el checklist de balizas, matafuegos y botiquín ✅\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Vacaciones #Ruta #VTV #Mandatario #Libreta",
+  "pantalla": [
+   "¿VENCIDO EN LA RUTA?",
+   "TE AVISA ANTES",
+   "libretaapp.com"
+  ],
+  "lugar": "Al lado del auto, con el baúl abierto (bolsos o reposera a la vista); una sola toma de 15–20 s.",
+  "hora_sugerida": "13:00"
  }
 ]
