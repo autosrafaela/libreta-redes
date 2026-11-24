@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-24",
+  "theme": "cobros-senas",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.2,
+      "kicker": "Para talleres",
+      "title": "“El resto\n*te lo paso mañana*”",
+      "say": "El resto te lo paso mañana. ¿Y después quién se acuerda?"
+    },
+    {
+      "type": "phone",
+      "dur": 4.2,
+      "title": "Anotás la seña\n*en la orden*",
+      "sub": "Efectivo, transferencia o tarjeta.",
+      "screen": {"kind": "captura", "src": "posts/2026-11-24/captura-cobro.png", "top": 0},
+      "say": "Con Libreta anotás la seña y cada pago en la orden del auto."
+    },
+    {
+      "type": "phone",
+      "dur": 4.2,
+      "title": "Ves *quién te debe*",
+      "sub": "Montos de ejemplo.",
+      "screen": {"kind": "captura", "src": "posts/2026-11-24/captura-deben.png", "top": 0},
+      "say": "Y ves de un vistazo quién te debe y cuánto."
+    },
+    {
+      "type": "quote",
+      "dur": 3.6,
+      "text": "El saldo se lo recordás\n*por WhatsApp*.",
+      "say": "El saldo se lo recordás por WhatsApp, con un toque."
+    },
+    {
+      "type": "cta",
+      "dur": 3.8,
+      "title": "Que no se te\n*escape ni una seña*",
+      "pill": "Gratis para talleres",
+      "say": "Que no se te escape ni una seña. Entrá gratis a libretaapp.com."
+    }
+  ]
+}
