@@ -533,5 +533,19 @@
   ],
   "lugar": "Al lado del auto, con el baúl abierto (bolsos o reposera a la vista); una sola toma de 15–20 s.",
   "hora_sugerida": "13:00"
+ },
+ {
+  "fecha": "2026-11-25",
+  "tema": "tu-mecanico",
+  "gancho": "Cuando alguien viene a vender el auto, le pregunto: ¿tenés los papeles del service?",
+  "guion": "Cuando alguien viene a vender el auto, le pregunto: ¿tenés los papeles del service? Y casi siempre la respuesta es “los tiene el mecánico” o “se perdieron”. La próxima vez que lo lleves, pedile a tu mecánico que te lo cargue en Libreta: queda en el historial de tu patente y no se pierde más. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "¿Dónde están los papeles del service de tu auto? 🤔\nSi la respuesta es “los tiene el mecánico”, esto es para vos 🔧\nPedile que cargue el trabajo en Libreta: queda en el historial de tu patente y no se pierde más ✅\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Autos #Mecanica #Mandatario #Libreta",
+  "pantalla": [
+   "¿Y LOS PAPELES DEL SERVICE?",
+   "PEDILE A TU MECÁNICO",
+   "libretaapp.com"
+  ],
+  "lugar": "En la oficina, detrás del escritorio con una carpeta de papeles en la mano; una sola toma de 15–20 s.",
+  "hora_sugerida": "13:00"
  }
 ]
