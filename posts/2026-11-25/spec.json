@@ -1,0 +1,8 @@
+{
+  "id": "2026-11-25",
+  "theme": "aprobar-presupuesto",
+  "format": "image",
+  "slides": [
+    {"type": "phone", "title": "“Ya que estaba,\n*le cambié…*”", "sub": "Con Libreta el presupuesto te llega al celu y aprobás *antes* de que toquen nada.", "screen": {"kind": "captura", "src": "posts/2026-11-25/captura-presupuesto.png", "top": 0}}
+  ]
+}

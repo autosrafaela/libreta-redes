@@ -530,5 +530,19 @@
     ],
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=7490896&openWithPostUuid=3336172471881908678",
     "notes": "Reel (posteo #38 de la rotación) con voz en off, ángulo talleres: el cliente que deja la seña y dice 'el resto te lo paso mañana' → cobros y señas en la orden, cuenta corriente (quién te debe) y recordatorio del saldo por WhatsApp. Dos capturas reales (orden-lista-cobro y taller-cobros, con 'Montos de ejemplo'). 5 escenas / 19,5 s, primera escena = frase dicha (ajuste del resumen del 23/11). Martes: Metricool da 21 h como la mejor (1987) → 21:12. Programado OK en las 3 redes (id 440229306) a las 21:12."
+  },
+  {
+    "id": "2026-11-25",
+    "theme": "aprobar-presupuesto",
+    "format": "image",
+    "hook": "“Ya que estaba, le cambié…”",
+    "scheduled_at": "2026-11-25T21:12:00-03:00",
+    "networks": [
+      "instagram",
+      "facebook",
+      "tiktok"
+    ],
+    "planner_url": "",
+    "notes": "Imagen (posteo #39 de la rotación), ángulo dueño: la frase del mecánico 'ya que estaba, le cambié…' + captura real del presupuesto que recibe el cliente (tarjeta Aprobar/Rechazar + detalle; datos de prueba, recortada sin links). Participación de una palabra en el caption (SÍ o NO, ajuste del resumen del 23/11). Miércoles: Metricool da 21 h como la mejor franja nocturna (1927) → 21:12."
   }
 ]
