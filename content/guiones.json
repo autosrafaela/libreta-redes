@@ -547,5 +547,19 @@
   ],
   "lugar": "En la oficina, detrás del escritorio con una carpeta de papeles en la mano; una sola toma de 15–20 s.",
   "hora_sugerida": "13:00"
+ },
+ {
+  "fecha": "2026-11-26",
+  "tema": "moto",
+  "gancho": "Cuando transfiero una moto, casi nunca aparece un papel del service.",
+  "guion": "Cuando transfiero una moto, casi nunca aparece un papel del service. Y el que compra se la lleva a ciegas. Con Libreta, tu mecánico de motos carga cada trabajo en tu patente y queda ahí: para vos y para el que te la compre. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "¿Tu moto tiene historial o solo tiene fe? 🏍️\nCuando se vende, casi nunca aparece un papel del service.\nCon Libreta, tu mecánico carga cada trabajo en tu patente y queda ahí ✅\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Motos #Mandatario #Mecanica #Libreta",
+  "pantalla": [
+   "¿Y EL SERVICE DE LA MOTO?",
+   "QUEDA EN TU PATENTE",
+   "libretaapp.com"
+  ],
+  "lugar": "En la oficina o en la vereda, al lado de una moto; una sola toma de 15–20 s.",
+  "hora_sugerida": "13:00"
  }
 ]
