@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-26",
+  "theme": "es-gratis",
+  "format": "carousel",
+  "slides": [
+    { "type": "hook", "kicker": "¿Verdadero o falso?", "title": "Libreta es *gratis*", "sub": "Contestá V o F antes de pasar." },
+    { "type": "list", "mark": "check", "kicker": "Verdadero", "title": "Gratis *de verdad*", "items": [
+      { "t": "Para dueños de autos y motos", "d": "Sin tarjeta, sin letra chica" },
+      { "t": "Para talleres y profesionales", "d": "Mecánicos, gomerías, lubricentros…" } ] },
+    { "type": "hook", "kicker": "¿Verdadero o falso?", "title": "Los trabajos *los cargo yo*", "sub": "V o F." },
+    { "type": "list", "mark": "check", "kicker": "Falso", "title": "Los carga *tu mecánico*", "items": [
+      { "t": "Lo firma el taller", "d": "Verificado, con tilde azul" },
+      { "t": "No se borra ni se edita", "d": "Y los km solo van para adelante" } ] },
+    { "type": "list", "mark": "check", "kicker": "Y encima", "title": "Qué tenés *sin pagar nada*", "items": [
+      { "t": "Historial por patente", "d": "Todo lo que le hicieron, en un lugar" },
+      { "t": "Avisos antes de que venza", "d": "VTV, seguro, patente, licencia" },
+      { "t": "Informe para vender", "d": "Se lo mandás al comprador con un link" } ] },
+    { "type": "cta", "title": "¿La trampa? *No hay*", "sub": "Sumá tu auto o tu moto hoy." }
+  ]
+}
