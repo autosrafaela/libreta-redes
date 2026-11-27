@@ -561,5 +561,19 @@
   ],
   "lugar": "En la oficina o en la vereda, al lado de una moto; una sola toma de 15–20 s.",
   "hora_sugerida": "13:00"
+ },
+ {
+  "fecha": "2026-11-27",
+  "tema": "mantenimiento-predictivo",
+  "gancho": "Firmás la transferencia, te llevás el auto… ¿y sabés qué le toca? ¿Aceite, correa, cubiertas?",
+  "guion": "Firmás la transferencia, te llevás el auto… ¿y sabés qué le toca? ¿Aceite, correa, cubiertas? Casi nadie sabe. Con Libreta, según los kilómetros y el tiempo, la app te dice qué le toca a tu auto y te avisa antes. Entrá gratis a libretaapp.com, el link está en mi perfil.",
+  "caption": "Compraste un usado: ¿sabés qué le toca? 🚗\nAceite, correa, cubiertas… casi nadie sabe.\nCon Libreta, según los km y el tiempo, la app te dice qué le toca y te avisa antes 🔧\n👉 Entrá gratis a libretaapp.com (link en mi perfil)\n#Rafaela #Santafe #Autos #Usados #Mandatario #Mecanica #Libreta",
+  "pantalla": [
+   "¿QUÉ LE TOCA?",
+   "SEGÚN LOS KM",
+   "libretaapp.com"
+  ],
+  "lugar": "En la oficina, con una carpeta de transferencia en la mano; una sola toma de 15–20 s.",
+  "hora_sugerida": "13:00"
  }
 ]
