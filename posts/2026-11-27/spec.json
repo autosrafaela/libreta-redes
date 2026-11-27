@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-27",
+  "theme": "transferir-historial",
+  "format": "reel",
+  "scenes": [
+    {
+      "type": "hook",
+      "dur": 3.4,
+      "kicker": "Si vendés el auto",
+      "title": "“Le hice\n*todos los services*”",
+      "say": "Le hice todos los services. ¿Y dónde están? En un cajón."
+    },
+    {
+      "type": "phone",
+      "dur": 4.2,
+      "title": "Queda todo\n*en la patente*",
+      "sub": "Lo cargan los talleres.",
+      "screen": {"kind": "historial"},
+      "say": "Con Libreta, cada trabajo queda en la patente, cargado por el taller."
+    },
+    {
+      "type": "phone",
+      "dur": 4.2,
+      "title": "El comprador\n*lo ve con un link*",
+      "sub": "Nadie lo puede borrar ni editar.",
+      "screen": {"kind": "informe"},
+      "say": "Al comprador le mandás un link y ve todo lo que le hiciste."
+    },
+    {
+      "type": "quote",
+      "dur": 3.8,
+      "text": "Y el historial\n*pasa al nuevo dueño*.",
+      "say": "Y cuando cerrás la venta, el historial pasa al nuevo dueño."
+    },
+    {
+      "type": "cta",
+      "dur": 3.8,
+      "title": "Que tus services\n*se vendan con el auto*",
+      "pill": "Gratis, sin tarjeta",
+      "say": "Que tus services se vendan con el auto. Entrá gratis a libretaapp.com."
+    }
+  ]
+}
